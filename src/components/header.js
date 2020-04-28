@@ -8,10 +8,10 @@ export default props => (
     <nav>
       <ul className={headerStyles.navList}>
         <li className={headerStyles.navItem}>
-          <Link to="/">Home</Link>
+          <Link to="/">Startside</Link>
         </li>
         <li className={headerStyles.navItem}>
-          <Link to="/om-os/">Om Os</Link>
+          <Link to="/om-os/">Om os</Link>
         </li>
         <li className={headerStyles.navItem}>
           <Link to="/undervisning/">Undervisning</Link>

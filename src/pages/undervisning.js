@@ -5,7 +5,7 @@ export default () => (
   <Layout>
     <h1>Undervisning / kurser</h1>
     <p>
-      Vi udbyder vores kurser i forhold til gymnasiesprog, elever med særlige
+      Vi udbyder vores kurser forhold til gymnasiesprog, elever med særlige
       udfordringer og andre kursister med interesse for sprog og kultur. Vi
       afholder kurser à 10 lektioners varighed, og vi tester og samler op på
       undervisningen.
@@ -15,7 +15,6 @@ export default () => (
       afpasset dine ønsker.
     </p>
 
-    <h2>Eneundervisning eller en lille gruppe</h2>
     <p>
       Måske er I to eller flere, der gerne vil gå sammen på et kursus, eller
       måske er dit behov at få eneundervisning. Vi er fleksible, og har du
