@@ -6,5 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: []
+  siteMetadata: {
+    title: "LAW ans SUS",
+    author: "",
+  },
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sharp`,
+  ],
 }
