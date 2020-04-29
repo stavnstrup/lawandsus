@@ -8,7 +8,7 @@ import LaptopGirl from "../images/photo-of-woman-sitting-on-floor-while-using-la
 export default () => (
   <>
     <Header />
-    <h1>Ekstra meteriale</h1>
+    <h1>Ekstra materiale</h1>
 
     <h2>Gul pige</h2>
 
