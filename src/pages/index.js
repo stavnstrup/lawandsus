@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import TaskList from "../components/tasklist"
 import Task from "../components/task"
 
-import HeroImage from "../images/writing-person-student-education-students-learning-multicultural-language-school-743887.jpg"
+import HeroImage from "../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg"
 
 export default () => {
   return (
