@@ -20,7 +20,7 @@ export default props => (
           <Link to="/information/">Information</Link>
         </li>
         <li className={headerStyles.navItem}>
-          <Link to="/ekstra/">Exstra materiale</Link>
+          <Link to="/ekstra/">Ekstra materiale</Link>
         </li>
       </ul>
     </nav>
