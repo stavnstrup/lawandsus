@@ -20,7 +20,9 @@ export default () => (
 
     <img
       style={{
-        width: "100vw",
+        margin: "0",
+        padding: "0",
+        width: "100%",
       }}
       src={YellowGirl}
       alt="Studerende"
@@ -29,7 +31,8 @@ export default () => (
     <h2>Pige med laptop</h2>
     <img
       style={{
-        width: "100vw",
+        margin: "0",
+        width: "100%",
       }}
       src={LaptopGirl}
       alt="Studerende"
@@ -38,7 +41,8 @@ export default () => (
     <h2>Fustration</h2>
     <img
       style={{
-        width: "100vw",
+        margin: "0",
+        width: "100%",
       }}
       src={FrustratedImage}
       alt="Studerende"
@@ -47,7 +51,8 @@ export default () => (
     <h2>Kedsomhed</h2>
     <img
       style={{
-        width: "100vw",
+        margin: "0",
+        width: "100%",
       }}
       src={BoredGirl}
       alt="Studerende"

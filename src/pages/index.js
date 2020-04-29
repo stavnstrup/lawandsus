@@ -14,7 +14,7 @@ export default () => {
 
       <img
         style={{
-          width: "100vw",
+          width: "100%",
         }}
         src={HeroImage}
         alt="Studerende"
