@@ -30,7 +30,7 @@ export default () => {
         <h2>Gymnasiesprog</h2>
         <p>
           Skal du starte - eller går du allerede - på en gymnasial uddannelse
-          med fransk eller tysk på fortsætterniveau, og synes du ikke du har
+          med fransk eller tysk på fortsætterniveau, og synes du ikke, du har
           lært nok, kan du få et brush-up kursus hos os. Vi gør det sjovt at
           lære, og alle kan lære et fremmedsprog; det kræver blot vilje og lidt
           vovemod. Hos os vil du være i centrum, og vi kan føre dig frem til et

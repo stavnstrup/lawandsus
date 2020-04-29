@@ -19,6 +19,9 @@ export default props => (
         <li className={headerStyles.navItem}>
           <Link to="/information/">Information</Link>
         </li>
+        <li className={headerStyles.navItem}>
+          <Link to="/ekstra/">Exstra materiale</Link>
+        </li>
       </ul>
     </nav>
   </>
