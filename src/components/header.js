@@ -7,7 +7,7 @@ export default (props) => (
   <>
     <nav>
       <ul className={headerStyles.navList}>
-        <li className={headerStyles.navItem}>
+        <li className={(headerStyles.navItem, headerStyles.logo)}>
           <Link to="/">Startside</Link>
         </li>
         <li className={headerStyles.navItem}>

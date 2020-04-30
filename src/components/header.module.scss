@@ -16,9 +16,10 @@ $copper: #c17d31;
   border-bottom: 4px solid $domino;
 }
 
-.nav-item {
+.nav-item,
+.logo {
   color: #999999;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-right: 1.3rem;
   text-decoration: none;
 
@@ -32,6 +33,12 @@ $copper: #c17d31;
   a:visited {
     color: $domino;
   }
+}
+
+.logo {
+  flex: 1;
+  align-self: left;
+  margin-left: 20px;
 }
 
 .nav-item:hover {
