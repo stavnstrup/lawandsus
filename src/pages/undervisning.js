@@ -7,21 +7,32 @@ export default () => (
     <Header />
     <Layout>
       <h1>Undervisning / kurser</h1>
+
       <p>
         Vi udbyder vores kurser i forhold til gymnasiesprog, elever med særlige
-        udfordringer og andre kursister med interesse for sprog og kultur. Vi
-        afholder kurser à 10 lektioners varighed, og vi tester og samler op på
-        undervisningen.
-      </p>
-      <p>
-        Kurserne matcher dine behov og dit engagement. Hjemmearbejde bliver
-        afpasset dine ønsker.
+        udfordringer og andre kursister med interesse for sprog og kultur. Hvis
+        du synes, det at lære sprog på hold med mange deltagere på forskellige
+        niveauer ikke giver det store udbytte, så er vores tilbud om effektiv
+        sprogundervisning, individuelt tilpasset noget for dig.
       </p>
 
       <p>
-        Måske er I to eller flere, der gerne vil gå sammen på et kursus, eller
-        måske er dit behov at få eneundervisning. Vi er fleksible, og har du
-        specielle ønsker, skræddersyr vi et kursus til dig.
+        Vi afholder kurser à 10 lektioners varighed, hvor vi tester og evaluerer
+        resultatet. Har du specielle ønsker, skræddersyr vi et kursus til dig
+        med et aftalt timetal.
+      </p>
+
+      <h2>Eneundervisning eller en lille gruppe</h2>
+
+      <p>
+        Måske er I to eller tre, der gerne vil gå sammen på et kursus, eller
+        måske er dit behov at få eneundervisning.
+      </p>
+
+      <p>
+        Undervisningen kan desuden efter aftale foregå online, så mødetiden
+        bliver mere fleksibel. Hjemmearbejde bliver ligeledes afpasset dine
+        ønsker.
       </p>
 
       <h2>Eksempler på franskkurser</h2>

@@ -21,7 +21,7 @@ export default () => {
       />
 
       <Layout>
-        <h1>Fransk og tysk i hyggelige rammer</h1>
+        <h1>Fransk og tysk i afslappede rammer</h1>
         <p>
           Lær fransk og tysk hos dygtige undervisere med en solid faglig og
           pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
@@ -44,13 +44,27 @@ export default () => {
           </Task>
 
           <Task>
-            <h2>Ordblind eller særlige udfordringer</h2>
+            <h2>Særlige behov</h2>
             <p>
               Har du særlige udfordringer, fx er ordblind, kan vi hjælpe dig med
               at lære og træne fransk eller tysk ud fra dine forudsætninger. Vi
               er vant til at håndtere den enkelte elevs forskellige
               læringsmåder, dvs. vi arbejder ud fra, hvordan du bedst lærer at
               forstå, tale og skrive fransk eller tysk.
+            </p>
+          </Task>
+
+          <Task>
+            <h2>Andre kursister</h2>
+
+            <p>
+              Hvis du som voksen allerede har lært lidt tysk eller fransk og
+              gerne vil forbedre dine sprogkundskaber, skræddersyr vi et program
+              til dig. Her vil din basisviden blive reaktiveret og suppleret, så
+              du hurtigt bliver mere sikker og flydende på sproget. Vi tager
+              udgangspunkt i et emne, der interesserer dig eller et område, du
+              har brug for at kunne udtrykke dig på vha. emnespecifikke gloser
+              og brugbare udtryk.
             </p>
           </Task>
 

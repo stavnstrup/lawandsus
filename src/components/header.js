@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import headerStyles from "./header.module.scss"
 
-export default props => (
+export default (props) => (
   <>
     <nav>
       <ul className={headerStyles.navList}>
@@ -17,10 +17,10 @@ export default props => (
           <Link to="/undervisning/">Undervisning</Link>
         </li>
         <li className={headerStyles.navItem}>
-          <Link to="/information/">Information</Link>
+          <Link to="/kontakt/">Kontakt</Link>
         </li>
         <li className={headerStyles.navItem}>
-          <Link to="/ekstra/">Ekstra materiale</Link>
+          <Link to="/eksemplers/">Eksempler </Link>
         </li>
       </ul>
     </nav>
