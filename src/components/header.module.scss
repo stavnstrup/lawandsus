@@ -5,7 +5,16 @@ $domino: #89765e;
 $birch: #3f3424;
 $copper: #c17d31;
 
+.fixed {
+}
+
 .nav-list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+
   display: flex;
   list-style-type: none;
   margin: 0;
