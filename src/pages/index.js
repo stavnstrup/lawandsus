@@ -10,8 +10,7 @@ export default () => {
   return (
     <>
       <Header />
-      <h1>BIENVENUE - WILLKOMMEN</h1>
-
+      {/* <h1>BIENVENUE - WILLKOMMEN</h1> */}
       <img
         style={{
           width: "100%",
@@ -19,14 +18,21 @@ export default () => {
         src={HeroImage}
         alt="Studerende"
       />
-
       <Layout>
-        <h1>Fransk og tysk i afslappede rammer</h1>
+        <h1>Effektiv sprogundervisning i uhøjtidelige rammer</h1>
+
         <p>
           Lær fransk og tysk hos dygtige undervisere med en solid faglig og
           pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
           udfordringerne for elever med forskellige forudsætninger for at lære
           sprog. Og så er vi uhøjtidelige og afslappede.
+        </p>
+
+        <p>
+          Hvis du synes, det at lære sprog på hold med mange deltagere på
+          forskellige niveauer ikke giver det store udbytte, så er vores tilbud
+          noget for dig. Vi lægger vægt på effektiv og relevant undervisning med
+          individuelle forløb.
         </p>
 
         <TaskList>

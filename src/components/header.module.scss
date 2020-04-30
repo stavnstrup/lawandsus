@@ -1,16 +1,16 @@
-$col1: #fbfbf7;
-$col2: #c2b095;
-$col3: #dad0bf;
-$col4: #89765e;
-$col5: #3f3424;
-$col6: #c17d31;
+$spring-wood: #fbfbf7;
+$indian-khaki: #c2b095;
+$sisal: #dad0bf;
+$domino: #89765e;
+$birch: #3f3424;
+$copper: #c17d31;
 
 .nav-list {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 40px 0;
-  background: #777;
+  background: $indian-khaki;
   margin-block-end: 0;
 }
 

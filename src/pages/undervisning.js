@@ -10,10 +10,13 @@ export default () => (
 
       <p>
         Vi udbyder vores kurser i forhold til gymnasiesprog, elever med særlige
-        udfordringer og andre kursister med interesse for sprog og kultur. Hvis
-        du synes, det at lære sprog på hold med mange deltagere på forskellige
-        niveauer ikke giver det store udbytte, så er vores tilbud om effektiv
-        sprogundervisning, individuelt tilpasset noget for dig.
+        udfordringer og andre kursister med interesse for sprog og kultur.
+      </p>
+
+      <p>
+        Vi afholder kurser à 10 lektioners varighed, hvor vi tester og evaluerer
+        resultatet. Har du specielle ønsker, skræddersyr vi et kursus til dig
+        med et aftalt timetal.
       </p>
 
       <p>
