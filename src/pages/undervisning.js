@@ -6,17 +6,11 @@ export default () => (
   <>
     <Header />
     <Layout>
-      <h1>Undervisning / kurser</h1>
+      <h1>Undervisning</h1>
 
       <p>
         Vi udbyder vores kurser i forhold til gymnasiesprog, elever med særlige
         udfordringer og andre kursister med interesse for sprog og kultur.
-      </p>
-
-      <p>
-        Vi afholder kurser à 10 lektioners varighed, hvor vi tester og evaluerer
-        resultatet. Har du specielle ønsker, skræddersyr vi et kursus til dig
-        med et aftalt timetal.
       </p>
 
       <p>
