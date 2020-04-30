@@ -29,9 +29,9 @@ export default () => {
         </p>
 
         <p>
-          Hvis du synes, det at lære sprog på hold med mange deltagere på
-          forskellige niveauer ikke giver det store udbytte, så er vores tilbud
-          noget for dig. Vi lægger vægt på effektiv og relevant undervisning med
+          Synes du, det at lære sprog på hold med mange deltagere på forskellige
+          niveauer ikke giver det store udbytte, så er vores tilbud noget for
+          dig. Vi lægger vægt på effektiv og relevant undervisning med
           individuelle forløb.
         </p>
 

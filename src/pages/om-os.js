@@ -16,8 +16,8 @@ export default () => (
       <h2>Lisbeth Aggerbeck Woll</h2>
 
       <ul>
-        <li>Korrespondent i fransk og engelsk, KU</li>
-        <li>Cand.mag. i fransk og engelsk</li>
+        <li>Cand.mag. i fransk og engelsk, KU</li>
+        <li>Korrespondent i fransk og engelsk, CBS</li>
         <li>Erhvervsøkonomisk suppleringsuddannelse, CBS</li>
         <li>It-faglig efteruddannelse, ITU</li>
         <li>Gymnasielærer på HHX og STX i 25 år</li>
