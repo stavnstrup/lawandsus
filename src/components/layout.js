@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react'
 
-import Footer from "./footer"
-import layoutStyles from "./layout.module.scss"
+import Footer from './footer'
+import layoutStyles from './layout.module.scss'
 
-const Layout = props => {
+const Layout = (props) => {
   return (
     <div className={layoutStyles.container}>
       <div className={layoutStyles.content}>{props.children}</div>

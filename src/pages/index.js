@@ -1,10 +1,10 @@
-import React from "react"
-import Header from "../components/header"
-import Layout from "../components/layout"
-import TaskList from "../components/tasklist"
-import Task from "../components/task"
+import React from 'react'
+import Header from '../components/header'
+import Layout from '../components/layout'
+import TaskList from '../components/tasklist'
+import Task from '../components/task'
 
-import HeroImage from "../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg"
+import HeroImage from '../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg'
 
 export default () => {
   return (
@@ -12,8 +12,9 @@ export default () => {
       <Header />
       {/* <h1>BIENVENUE - WILLKOMMEN</h1> */}
       <img
+        className="heroimage"
         style={{
-          width: "100%",
+          width: '100%',
         }}
         src={HeroImage}
         alt="Studerende"

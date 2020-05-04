@@ -1,14 +1,16 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
-import headerStyles from "./header.module.scss"
+import headerStyles from './header.module.scss'
 
 export default (props) => (
   <>
     <nav>
       <ul className={headerStyles.navList}>
         <li className={(headerStyles.navItem, headerStyles.logo)}>
-          <Link to="/">Startside</Link>
+          <Link to="/">
+            <strong>Sproglærerne</strong>
+          </Link>
         </li>
         <li className={headerStyles.navItem}>
           <Link to="/om-os/">Om os</Link>
