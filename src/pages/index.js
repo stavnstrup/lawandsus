@@ -23,7 +23,7 @@ export default () => {
         <h1>Effektiv sprogundervisning i uhøjtidelige rammer</h1>
 
         <p>
-          Lær fransk og tysk hos dygtige undervisere med en solid faglig og
+          Lær tysk og fransk hos dygtige undervisere med en solid faglig og
           pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
           udfordringerne for elever med forskellige forudsætninger for at lære
           sprog. Og så er vi uhøjtidelige og afslappede.
@@ -45,8 +45,8 @@ export default () => {
               ikke, du har lært nok, kan du få et brush-up kursus hos os. Vi gør
               det sjovt at lære, og alle kan lære et fremmedsprog; det kræver
               blot vilje og lidt vovemod. Hos os vil du være i centrum, og vi
-              kan føre dig frem til et niveau, hvor du kan komme videre med god
-              selvtillid og turde kommunikere uden frygt for at lave fejl!
+              kan føre dig frem til et niveau, hvor du kan komme videre med
+              selvtillid og turde kommunikere uden frygt for at lave fejl.
             </p>
           </Task>
 

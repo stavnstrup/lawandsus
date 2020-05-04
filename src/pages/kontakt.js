@@ -1,6 +1,6 @@
-import React from "react"
-import Header from "../components/header"
-import Layout from "../components/layout"
+import React from 'react'
+import Header from '../components/header'
+import Layout from '../components/layout'
 
 export default () => (
   <>
@@ -12,7 +12,7 @@ export default () => (
       <p>1 lektion à 50 minutter: 450 kr. pr. deltager</p>
       <p>
         Hvis du ønsker undervisning hos dig, vil der være et tillæg for vores
-        transport- og rejsetid.
+        transport og rejsetid.
       </p>
 
       <h2>Hvor og hvornår</h2>
@@ -30,7 +30,7 @@ export default () => (
       <h2>Kontakt</h2>
 
       <p>Lisbeth på mobil 4041 2109 eller mail lisbeth@woll.dk</p>
-      <p>Susanne på mobil 3141 9762 eller mail</p>
+      <p>Susanne på mobil 3141 9762 eller mail sus.vestergaard@mail.tele.dk</p>
     </Layout>
   </>
 )
