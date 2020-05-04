@@ -9,7 +9,7 @@ export default (props) => (
       <ul className={headerStyles.navList}>
         <li className={(headerStyles.navItem, headerStyles.logo)}>
           <Link to="/">
-            <strong>Sproglærerne</strong>
+            <strong>SPROGLÆRERNE</strong>
           </Link>
         </li>
         <li className={headerStyles.navItem}>
