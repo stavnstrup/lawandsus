@@ -14,12 +14,9 @@ export default () => {
       <Layout>
         <div className="contentBanner">
           <p className="bannerTitle">Willkommen - Bienvenue</p>
-          <p className="bannerTitle">
-            Effektiv sprogundervisning i uhøjtidelige rammer
-          </p>
+          <p className="bannerTitle"></p>
           <p className="bannerDescr">
-            Lær tysk og fransk hos dygtige undervisere med en solid faglig og
-            pædagogisk baggrund.
+            Effektiv sprogundervisning i uhøjtidelige rammer
           </p>
         </div>
 
@@ -35,9 +32,10 @@ export default () => {
 */}
 
         <p>
-          Vi er erfarne gymnasielærere og kender udfordringerne for elever med
-          forskellige forudsætninger for at lære sprog. Og så er vi uhøjtidelige
-          og afslappede.
+          Lær tysk og fransk hos dygtige undervisere med en solid faglig og
+          pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
+          udfordringerne for elever med forskellige forudsætninger for at lære
+          sprog. Og så er vi uhøjtidelige og afslappede.
         </p>
 
         <p>
