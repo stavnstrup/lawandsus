@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Layout from '../components/layout'
 import TaskList from '../components/tasklist'
 import Task from '../components/task'
+import '../styles/global.css'
 
 import HeroImage from '../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg'
 
@@ -10,7 +11,19 @@ export default () => {
   return (
     <>
       <Header />
-      {/* <h1>BIENVENUE - WILLKOMMEN</h1> */}
+      <Layout>
+        <div className="contentBanner">
+          <p className="bannerTitle">Willkommen - Bienvenue</p>
+          <p className="bannerTitle">
+            Effektiv sprogundervisning i uhøjtidelige rammer
+          </p>
+          <p className="bannerDescr">
+            Lær tysk og fransk hos dygtige undervisere med en solid faglig og
+            pædagogisk baggrund.
+          </p>
+        </div>
+
+        {/*
       <img
         className="heroimage"
         style={{
@@ -19,14 +32,12 @@ export default () => {
         src={HeroImage}
         alt="Studerende"
       />
-      <Layout>
-        <h1>Effektiv sprogundervisning i uhøjtidelige rammer</h1>
+*/}
 
         <p>
-          Lær tysk og fransk hos dygtige undervisere med en solid faglig og
-          pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
-          udfordringerne for elever med forskellige forudsætninger for at lære
-          sprog. Og så er vi uhøjtidelige og afslappede.
+          Vi er erfarne gymnasielærere og kender udfordringerne for elever med
+          forskellige forudsætninger for at lære sprog. Og så er vi uhøjtidelige
+          og afslappede.
         </p>
 
         <p>

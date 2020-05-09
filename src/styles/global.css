@@ -1,6 +1,46 @@
 html,
 body {
   margin: 0;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Regular', 'Segoe UI', Helvetica Neue, Helvetica, sans-serif;
   font-size: 16px;
+}
+
+.contentBanner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(57, 49, 49, 0.4);
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.contentBanner {
+  height: 487px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 160px;
+  position: relative;
+  color: #ffffff;
+  background-image: url(../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg);
+}
+.bannerTitle {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+  margin: 0 0 20px;
+}
+
+.bannerDescr {
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0;
+  position: relative;
+  z-index: 2;
+  font-weight: 400;
 }
