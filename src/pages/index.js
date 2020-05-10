@@ -13,11 +13,11 @@ export default () => {
       <Header />
       <Layout>
         <div className="contentBanner">
-          <p className="bannerTitle">Willkommen - Bienvenue</p>
-          <p className="bannerTitle"></p>
-          <p className="bannerDescr">
+          <p className="bannerTitle">
             Effektiv sprogundervisning i uhøjtidelige rammer
           </p>
+          <p className="bannerTitle"></p>
+          <p className="bannerDescr">Willkommen - Bienvenue</p>
         </div>
 
         {/*

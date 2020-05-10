@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  padding: 160px;
+  padding: 160px 160px 160px 160px;
   position: relative;
   color: #ffffff;
   background-image: url(../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg);
@@ -39,6 +39,7 @@ body {
 .bannerDescr {
   font-size: 28px;
   line-height: 150%;
+  text-transform: uppercase;
   letter-spacing: 0;
   position: relative;
   z-index: 2;

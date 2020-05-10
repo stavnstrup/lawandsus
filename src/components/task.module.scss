@@ -1,8 +1,13 @@
 .taskBox {
-  width: 13em;
+  width: 40%; // 13em
   margin: 12px;
-  padding: 1.43em 3%;
-  background: #aaaaaa;
+  padding: 1em 1.43em;
+  background: #dad0bf;
+}
+
+.taskBox > h2 {
+  font-size: 2em;
+  font-weight: 400;
 }
 
 .taskBody {
