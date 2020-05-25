@@ -3,34 +3,15 @@ import Header from '../components/header'
 import Layout from '../components/layout'
 import TaskList from '../components/tasklist'
 import Task from '../components/task'
+import StyledBackgroundSection from '../components/heroimage'
 import '../styles/global.css'
-
-import HeroImage from '../images/woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg'
 
 export default () => {
   return (
     <>
       <Header />
       <Layout>
-        <div className="contentBanner">
-          <p className="bannerTitle">
-            Effektiv sprogundervisning i uhøjtidelige rammer
-          </p>
-          <p className="bannerTitle"></p>
-          <p className="bannerDescr">Willkommen - Bienvenue</p>
-        </div>
-
-        {/*
-      <img
-        className="heroimage"
-        style={{
-          width: '100%',
-        }}
-        src={HeroImage}
-        alt="Studerende"
-      />
-*/}
-
+        <StyledBackgroundSection />
         <p>
           Lær tysk og fransk hos dygtige undervisere med en solid faglig og
           pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
