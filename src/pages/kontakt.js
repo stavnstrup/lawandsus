@@ -6,7 +6,7 @@ export default () => (
   <>
     <Header />
     <Layout>
-      <h1>Kontakt og tilmelding</h1>
+      <h1>Kontakt</h1>
 
       <h2>Hvor</h2>
 
