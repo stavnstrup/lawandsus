@@ -14,16 +14,15 @@ export default () => {
         <StyledBackgroundSection />
         <p>
           Lær tysk og fransk hos dygtige undervisere med en solid faglig og
-          pædagogisk baggrund. Vi er erfarne gymnasielærere og kender
+          pædagogisk baggrund. Vi er erfarne gymnasielærere, der kender
           udfordringerne for elever med forskellige forudsætninger for at lære
-          sprog. Og så er vi uhøjtidelige og afslappede.
+          sprog, og vi er på forkant med de nyeste metoder inden for
+          fremmedsprogsundervisning.
         </p>
 
         <p>
-          Synes du, det at lære sprog på hold med mange deltagere på forskellige
-          niveauer ikke giver det store udbytte, så er vores tilbud noget for
-          dig. Vi lægger vægt på effektiv og relevant undervisning med
-          individuelle forløb.
+          Vores undervisning er tilpasset den enkelte elevs behov med
+          individuelle forløb. Vi er effektive, men uhøjtidelige.
         </p>
 
         <TaskList>
@@ -34,8 +33,8 @@ export default () => {
               uddannelse med fransk eller tysk på fortsætterniveau, og synes du
               ikke, du har lært nok, kan du få et brush-up kursus hos os. Vi gør
               det sjovt at lære, og alle kan lære et fremmedsprog; det kræver
-              blot vilje og lidt vovemod. Hos os vil du være i centrum, og vi
-              kan føre dig frem til et niveau, hvor du kan komme videre med
+              blot vilje og gå-på-mod. Hos os vil du være i centrum, og vi kan
+              føre dig frem til et niveau, hvor du kan komme videre med
               selvtillid og turde kommunikere uden frygt for at lave fejl.
             </p>
           </Task>
@@ -73,17 +72,15 @@ export default () => {
               mennesker, der taler sproget: hvordan de lever og oplever verden,
               deres omgangsformer, vaner og værdier. Det kan være mad- og
               drikkevaner, hvordan man er sammen med familie og venner, og
-              hvordan man ellers begår sig i samfundet. Humor kan være meget
-              forskellig, og sådan er der mange andre ting, der adskiller
-              kulturer. Kulturen omhandler desuden kunst og litteratur i bred
-              forstand.
+              hvordan man ellers begår sig i samfundet. Kulturen omhandler
+              desuden kunst og historie i bred forstand. Når der bliver lukket
+              op til de forskellige aspekter af kulturen, bliver det nemmere og
+              sjovere at kommunikere med hinanden på tværs af landene. Lære
+              noget af hinanden ved at få udvidet sine horisonter.
             </p>
 
             <p>
-              Når der bliver lukket op til de forskellige aspekter af kulturen,
-              bliver det nemmere og sjovere at kommunikere med hinanden på tværs
-              af landene. Lære noget af hinanden ved at få udvidet sine
-              horisonter. Hos os kan du få et kursus, der giver dig en større
+              Hos os kan du få et kursus, der giver dig en større
               kulturforståelse gennem sproget.
             </p>
           </Task>

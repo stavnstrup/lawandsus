@@ -32,7 +32,7 @@ const BackgroundSection = ({ className }) => (
           backgroundColor={`#040e18`}
         >
           <p className="bannerTitle">
-            Effektiv sprogundervisning i uhøjtidelige rammer
+            Effektiv sprogundervisning i tysk og fransk
           </p>
           <p className="bannerTitle"></p>
           <p className="bannerDescr">Willkommen - Bienvenue</p>
