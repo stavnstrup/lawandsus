@@ -10,8 +10,8 @@ export default () => {
   return (
     <>
       <Header />
+      <StyledBackgroundSection />
       <Layout>
-        <StyledBackgroundSection />
         <p>
           Lær tysk og fransk hos dygtige undervisere med en solid faglig og
           pædagogisk baggrund. Vi er erfarne gymnasielærere, der kender
