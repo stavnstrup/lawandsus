@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import FrenchFlag from '../images/Flag_of_France.svg'
+import GermanFlag from '../images/Flag_of_Germany.svg'
 
 import headerStyles from './header.module.scss'
 
@@ -10,6 +12,8 @@ export default (props) => (
         <li className={(headerStyles.navItem, headerStyles.logo)}>
           <Link to="/">
             <strong>SPROGLÆRERNE</strong>
+            <img className={headerStyles.flag} src={GermanFlag} />
+            <img className={headerStyles.flag} src={FrenchFlag} />
           </Link>
         </li>
         <li className={headerStyles.navItem}>
