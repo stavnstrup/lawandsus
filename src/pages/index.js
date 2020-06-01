@@ -5,6 +5,8 @@ import Header from '../components/header'
 import Layout from '../components/layout'
 import CardGroup from '../components/cardgroup'
 import Card from '../components/card'
+import CardHeader from '../components/cardheader'
+import CardBody from '../components/cardbody'
 import StyledBackgroundSection from '../components/heroimage'
 import '../styles/global.css'
 
@@ -30,10 +32,8 @@ export default ({ data }) => {
         <CardGroup>
           <Card>
             <Img fixed={data.bored.childImageSharp.fixed} />
-            <div className="cardHeader">
-              <h2>Gymnasiesprog</h2>
-            </div>
-            <div className="cardBody">
+            <CardHeader header="Gymnasiesprog" />
+            <CardBody>
               <p>
                 Skal du starte - eller går du allerede - på en gymnasial
                 uddannelse med fransk eller tysk på fortsætterniveau, og synes
@@ -43,15 +43,13 @@ export default ({ data }) => {
                 vi kan føre dig frem til et niveau, hvor du kan komme videre med
                 selvtillid og turde kommunikere uden frygt for at lave fejl.
               </p>
-            </div>
+            </CardBody>
           </Card>
 
           <Card>
             <Img fixed={data.frustrated.childImageSharp.fixed} />
-            <div className="cardHeader">
-              <h2>Særlige behov</h2>
-            </div>
-            <div className="cardBody">
+            <CardHeader header="Særlige behov" />
+            <CardBody>
               <p>
                 Har du særlige udfordringer, fx er ordblind, kan vi hjælpe dig
                 med at lære og træne fransk eller tysk ud fra dine
@@ -59,15 +57,13 @@ export default ({ data }) => {
                 forskellige læringsmåder, dvs. vi arbejder ud fra, hvordan du
                 bedst lærer at forstå, tale og skrive fransk eller tysk.
               </p>
-            </div>
+            </CardBody>
           </Card>
 
           <Card>
             <Img fixed={data.laptop.childImageSharp.fixed} />
-            <div className="cardHeader">
-              <h2>Andre kursister</h2>
-            </div>
-            <div className="cardBody">
+            <CardHeader header="Andre kursister" />
+            <CardBody>
               <p>
                 Hvis du som voksen allerede har lært lidt tysk eller fransk og
                 gerne vil forbedre dine sprogkundskaber, skræddersyr vi et
@@ -77,15 +73,14 @@ export default ({ data }) => {
                 eller et område, du har brug for at kunne udtrykke dig på vha.
                 emnespecifikke gloser og brugbare udtryk.
               </p>
-            </div>
+            </CardBody>
           </Card>
 
           <Card>
             <Img fixed={data.laptop.childImageSharp.fixed} />
-            <div className="cardHeader">
-              <h2>Sprog og kultur</h2>
-            </div>
-            <div className="cardBody">
+            <CardHeader header="Sprog og kultur" />
+
+            <CardBody>
               <p>
                 At lære et sprog er også at lære kulturen at kende og de
                 mennesker, der taler sproget: hvordan de lever og oplever
@@ -102,7 +97,7 @@ export default ({ data }) => {
                 Hos os kan du få et kursus, der giver dig en større
                 kulturforståelse gennem sproget.
               </p>
-            </div>
+            </CardBody>
           </Card>
         </CardGroup>
       </Layout>
