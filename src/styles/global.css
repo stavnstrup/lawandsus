@@ -29,16 +29,18 @@ body {
   font-weight: 400;
 }
 
-.portrait {
-  float: right;
-  margin: 10px;
-}
-
 .teacherBox {
+  display: flex;
+  margin-bottom: 30px;
 }
 
-.teatherPortrait {
+.teacherPortrait {
 }
 
-.teatherInfo {
+.teacherInfo {
+  margin-left: 20px;
+  margin-block-start: 0;
+  h2 {
+    margin-top: 0;
+  }
 }
