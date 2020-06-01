@@ -61,7 +61,7 @@ export default ({ data }) => {
           </Card>
 
           <Card>
-            <Img fixed={data.laptop.childImageSharp.fixed} />
+            <Img fixed={data.adult.childImageSharp.fixed} />
             <CardHeader header="Andre kursister" />
             <CardBody>
               <p>
@@ -108,7 +108,7 @@ export default ({ data }) => {
 export const fixedImage = graphql`
   fragment fixedImage on File {
     childImageSharp {
-      fixed(width: 256) {
+      fixed(width: 256, height: 171) {
         ...GatsbyImageSharpFixed
       }
     }
@@ -128,6 +128,9 @@ export const pageQuery = graphql`
         eq: "photo-of-woman-sitting-on-floor-while-using-laptop-3813006.jpg"
       }
     ) {
+      ...fixedImage
+    }
+    adult: file(relativePath: { eq: "adult.jpg" }) {
       ...fixedImage
     }
   }
