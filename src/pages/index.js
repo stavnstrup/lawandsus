@@ -77,7 +77,7 @@ export default ({ data }) => {
           </Card>
 
           <Card>
-            <Img fixed={data.laptop.childImageSharp.fixed} />
+            <Img fixed={data.culture.childImageSharp.fixed} />
             <CardHeader header="Sprog og kultur" />
 
             <CardBody>
@@ -131,6 +131,9 @@ export const pageQuery = graphql`
       ...fixedImage
     }
     adult: file(relativePath: { eq: "adult.jpg" }) {
+      ...fixedImage
+    }
+    culture: file(relativePath: { eq: "culture-food.jpg" }) {
       ...fixedImage
     }
   }
