@@ -14,47 +14,58 @@ export default () => (
         uddannelse og praksis. Vi har flg. CV’er:
       </p>
 
-      <img
-        className="poetrait"
-        src="https://via.placeholder.com/200x300"
-        alt="Lisbeth Woll"
-      />
+      <div className="teacherBox">
+        <div className="teatherPortrait">
+          <img
+            className="portrait"
+            src="https://via.placeholder.com/300x300"
+            alt="Lisbeth Woll"
+          />
+        </div>
 
-      <h2>Lisbeth Aggerbeck Woll</h2>
+        <div className="teacherInfo">
+          <h2>Lisbeth Aggerbeck Woll</h2>
 
-      <ul>
-        <li>Cand.mag. i fransk og engelsk, KU</li>
-        <li>Korrespondent i fransk og engelsk, CBS</li>
-        <li>Erhvervsøkonomisk suppleringsuddannelse, CBS</li>
-        <li>It-faglig efteruddannelse, ITU</li>
-        <li>Gymnasielærer på HHX og STX i 25 år</li>
-        <li>
-          3 år i Bruxelles med jobs i et amerikansk firma og EU-Kommissionen
-        </li>
-        <li>Jobs i forskellige firmaer i Danmark</li>
-      </ul>
+          <ul>
+            <li>Cand.mag. i fransk og engelsk, KU</li>
+            <li>Korrespondent i fransk og engelsk, CBS</li>
+            <li>Erhvervsøkonomisk suppleringsuddannelse, CBS</li>
+            <li>It-faglig efteruddannelse, ITU</li>
+            <li>Gymnasielærer på HHX og STX i 25 år</li>
+            <li>
+              3 år i Bruxelles med jobs i et amerikansk firma og EU-Kommissionen
+            </li>
+            <li>Jobs i forskellige firmaer i Danmark</li>
+          </ul>
+        </div>
+      </div>
 
-      <img
-        className="poetrait"
-        src="https://via.placeholder.com/200x300"
-        alt="Susanne Vestergaard"
-      />
+      <div className="teacherBox">
+        <div className="teatćherPortrait">
+          <img
+            className="portrait"
+            src="https://via.placeholder.com/300x300"
+            alt="Susanne Vestergaard"
+          />
+        </div>
+        <div className="teacherInfo">
+          <h2>Susanne Vestergaard</h2>
 
-      <h2>Susanne Vestergaard</h2>
-
-      <ul>
-        <li>Magister i Germansk Filologi, Frie Universität Berlin</li>
-        <li>Cand.mag i tysk og kunsthistorie, AAU</li>
-        <li>
-          Suppleringsuddannelse : ”Interkulturel Kommunikation”, Wiens
-          universitet
-        </li>
-        <li>Underviser på AAU</li>
-        <li>Underviser på CBS</li>
-        <li>Gymnasielærer på STX i 25 år</li>
-        <li>Jobs i forskellige danske firmaer</li>
-        <li>Udgiver af en række lærebøger og underviser på kurser</li>
-      </ul>
+          <ul>
+            <li>Magister i Germansk Filologi, Frie Universität Berlin</li>
+            <li>Cand.mag i tysk og kunsthistorie, AAU</li>
+            <li>
+              Suppleringsuddannelse : ”Interkulturel Kommunikation”, Wiens
+              universitet
+            </li>
+            <li>Underviser på AAU</li>
+            <li>Underviser på CBS</li>
+            <li>Gymnasielærer på STX i 25 år</li>
+            <li>Jobs i forskellige danske firmaer</li>
+            <li>Udgiver af en række lærebøger og underviser på kurser</li>
+          </ul>
+        </div>
+      </div>
     </Layout>
   </>
 )
