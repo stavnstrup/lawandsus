@@ -1,9 +1,9 @@
-import React from "react"
-import Header from "../components/header"
+import React from 'react'
+import Header from '../components/header'
 
-import LaptopGirl from "../images/photo-of-woman-sitting-on-floor-while-using-laptop-3813006.jpg"
-import FrustratedImage from "../images/pikrepo.com.jpg"
-import BoredGirl from "../images/pikrepo.com-1.jpg"
+import LaptopGirl from '../images/photo-of-woman-sitting-on-floor-while-using-laptop-3813006.jpg'
+import FrustratedImage from '../images/frustrated.jpg'
+import BoredGirl from '../images/bored.jpg'
 
 export default () => (
   <>
@@ -18,8 +18,8 @@ export default () => (
     <h2>Pige med laptop</h2>
     <img
       style={{
-        margin: "0",
-        width: "100%",
+        margin: '0',
+        width: '100%',
       }}
       src={LaptopGirl}
       alt="Studerende"
@@ -28,8 +28,8 @@ export default () => (
     <h2>Fustration</h2>
     <img
       style={{
-        margin: "0",
-        width: "100%",
+        margin: '0',
+        width: '100%',
       }}
       src={FrustratedImage}
       alt="Studerende"
@@ -38,8 +38,8 @@ export default () => (
     <h2>Kedsomhed</h2>
     <img
       style={{
-        margin: "0",
-        width: "100%",
+        margin: '0',
+        width: '100%',
       }}
       src={BoredGirl}
       alt="Studerende"

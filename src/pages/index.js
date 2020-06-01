@@ -1,12 +1,14 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Header from '../components/header'
 import Layout from '../components/layout'
-import TaskList from '../components/tasklist'
-import Task from '../components/task'
+import CardGroup from '../components/cardgroup'
+import Card from '../components/card'
 import StyledBackgroundSection from '../components/heroimage'
 import '../styles/global.css'
 
-export default () => {
+export default ({ data }) => {
   return (
     <>
       <Header />
@@ -25,67 +27,113 @@ export default () => {
           individuelle forløb. Vi er effektive, men uhøjtidelige.
         </p>
 
-        <TaskList>
-          <Task>
-            <h2>Gymnasiesprog</h2>
-            <p>
-              Skal du starte - eller går du allerede - på en gymnasial
-              uddannelse med fransk eller tysk på fortsætterniveau, og synes du
-              ikke, du har lært nok, kan du få et brush-up kursus hos os. Vi gør
-              det sjovt at lære, og alle kan lære et fremmedsprog; det kræver
-              blot vilje og gå-på-mod. Hos os vil du være i centrum, og vi kan
-              føre dig frem til et niveau, hvor du kan komme videre med
-              selvtillid og turde kommunikere uden frygt for at lave fejl.
-            </p>
-          </Task>
+        <CardGroup>
+          <Card>
+            <Img fixed={data.bored.childImageSharp.fixed} />
+            <div className="cardHeader">
+              <h2>Gymnasiesprog</h2>
+            </div>
+            <div className="cardBody">
+              <p>
+                Skal du starte - eller går du allerede - på en gymnasial
+                uddannelse med fransk eller tysk på fortsætterniveau, og synes
+                du ikke, du har lært nok, kan du få et brush-up kursus hos os.
+                Vi gør det sjovt at lære, og alle kan lære et fremmedsprog; det
+                kræver blot vilje og gå-på-mod. Hos os vil du være i centrum, og
+                vi kan føre dig frem til et niveau, hvor du kan komme videre med
+                selvtillid og turde kommunikere uden frygt for at lave fejl.
+              </p>
+            </div>
+          </Card>
 
-          <Task>
-            <h2>Særlige behov</h2>
-            <p>
-              Har du særlige udfordringer, fx er ordblind, kan vi hjælpe dig med
-              at lære og træne fransk eller tysk ud fra dine forudsætninger. Vi
-              er vant til at håndtere den enkelte elevs forskellige
-              læringsmåder, dvs. vi arbejder ud fra, hvordan du bedst lærer at
-              forstå, tale og skrive fransk eller tysk.
-            </p>
-          </Task>
+          <Card>
+            <Img fixed={data.frustrated.childImageSharp.fixed} />
+            <div className="cardHeader">
+              <h2>Særlige behov</h2>
+            </div>
+            <div className="cardBody">
+              <p>
+                Har du særlige udfordringer, fx er ordblind, kan vi hjælpe dig
+                med at lære og træne fransk eller tysk ud fra dine
+                forudsætninger. Vi er vant til at håndtere den enkelte elevs
+                forskellige læringsmåder, dvs. vi arbejder ud fra, hvordan du
+                bedst lærer at forstå, tale og skrive fransk eller tysk.
+              </p>
+            </div>
+          </Card>
 
-          <Task>
-            <h2>Andre kursister</h2>
+          <Card>
+            <Img fixed={data.laptop.childImageSharp.fixed} />
+            <div className="cardHeader">
+              <h2>Andre kursister</h2>
+            </div>
+            <div className="cardBody">
+              <p>
+                Hvis du som voksen allerede har lært lidt tysk eller fransk og
+                gerne vil forbedre dine sprogkundskaber, skræddersyr vi et
+                program til dig. Her vil din basisviden blive reaktiveret og
+                suppleret, så du hurtigt bliver mere sikker og flydende på
+                sproget. Vi tager udgangspunkt i et emne, der interesserer dig
+                eller et område, du har brug for at kunne udtrykke dig på vha.
+                emnespecifikke gloser og brugbare udtryk.
+              </p>
+            </div>
+          </Card>
 
-            <p>
-              Hvis du som voksen allerede har lært lidt tysk eller fransk og
-              gerne vil forbedre dine sprogkundskaber, skræddersyr vi et program
-              til dig. Her vil din basisviden blive reaktiveret og suppleret, så
-              du hurtigt bliver mere sikker og flydende på sproget. Vi tager
-              udgangspunkt i et emne, der interesserer dig eller et område, du
-              har brug for at kunne udtrykke dig på vha. emnespecifikke gloser
-              og brugbare udtryk.
-            </p>
-          </Task>
+          <Card>
+            <Img fixed={data.laptop.childImageSharp.fixed} />
+            <div className="cardHeader">
+              <h2>Sprog og kultur</h2>
+            </div>
+            <div className="cardBody">
+              <p>
+                At lære et sprog er også at lære kulturen at kende og de
+                mennesker, der taler sproget: hvordan de lever og oplever
+                verden, deres omgangsformer, vaner og værdier. Det kan være mad-
+                og drikkevaner, hvordan man er sammen med familie og venner, og
+                hvordan man ellers begår sig i samfundet. Kulturen omhandler
+                desuden kunst og historie i bred forstand. Når der bliver lukket
+                op til de forskellige aspekter af kulturen, bliver det nemmere
+                og sjovere at kommunikere med hinanden på tværs af landene. Lære
+                noget af hinanden ved at få udvidet sine horisonter.
+              </p>
 
-          <Task>
-            <h2>Sprog og kultur</h2>
-
-            <p>
-              At lære et sprog er også at lære kulturen at kende og de
-              mennesker, der taler sproget: hvordan de lever og oplever verden,
-              deres omgangsformer, vaner og værdier. Det kan være mad- og
-              drikkevaner, hvordan man er sammen med familie og venner, og
-              hvordan man ellers begår sig i samfundet. Kulturen omhandler
-              desuden kunst og historie i bred forstand. Når der bliver lukket
-              op til de forskellige aspekter af kulturen, bliver det nemmere og
-              sjovere at kommunikere med hinanden på tværs af landene. Lære
-              noget af hinanden ved at få udvidet sine horisonter.
-            </p>
-
-            <p>
-              Hos os kan du få et kursus, der giver dig en større
-              kulturforståelse gennem sproget.
-            </p>
-          </Task>
-        </TaskList>
+              <p>
+                Hos os kan du få et kursus, der giver dig en større
+                kulturforståelse gennem sproget.
+              </p>
+            </div>
+          </Card>
+        </CardGroup>
       </Layout>
     </>
   )
 }
+
+export const fixedImage = graphql`
+  fragment fixedImage on File {
+    childImageSharp {
+      fixed(width: 256) {
+        ...GatsbyImageSharpFixed
+      }
+    }
+  }
+`
+
+export const pageQuery = graphql`
+  query {
+    bored: file(relativePath: { eq: "bored.jpg" }) {
+      ...fixedImage
+    }
+    frustrated: file(relativePath: { eq: "frustrated.jpg" }) {
+      ...fixedImage
+    }
+    laptop: file(
+      relativePath: {
+        eq: "photo-of-woman-sitting-on-floor-while-using-laptop-3813006.jpg"
+      }
+    ) {
+      ...fixedImage
+    }
+  }
+`
