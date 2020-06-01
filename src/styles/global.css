@@ -28,3 +28,8 @@ body {
   z-index: 2;
   font-weight: 400;
 }
+
+.portrait {
+  float: right;
+  margin: 10px;
+}

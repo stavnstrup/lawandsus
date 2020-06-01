@@ -12,8 +12,8 @@ export default (props) => (
         <li className={(headerStyles.navItem, headerStyles.logo)}>
           <Link to="/">
             <strong>SPROGLÆRERNE</strong>
-            <img className={headerStyles.flag} src={GermanFlag} />
-            <img className={headerStyles.flag} src={FrenchFlag} />
+            <img className={headerStyles.flag} src={GermanFlag} alt="Germany" />
+            <img className={headerStyles.flag} src={FrenchFlag} alt="France" />
           </Link>
         </li>
         <li className={headerStyles.navItem}>

@@ -1,6 +1,7 @@
-import React from "react"
-import Header from "../components/header"
-import Layout from "../components/layout"
+import React from 'react'
+import Header from '../components/header'
+import Layout from '../components/layout'
+import '../styles/global.css'
 
 export default () => (
   <>
@@ -12,6 +13,12 @@ export default () => (
         Vi er erfarne sproglærere med en masse i bagagen, både hvad angår
         uddannelse og praksis. Vi har flg. CV’er:
       </p>
+
+      <img
+        className="poetrait"
+        src="https://via.placeholder.com/200x300"
+        alt="Lisbeth Woll"
+      />
 
       <h2>Lisbeth Aggerbeck Woll</h2>
 
@@ -26,6 +33,12 @@ export default () => (
         </li>
         <li>Jobs i forskellige firmaer i Danmark</li>
       </ul>
+
+      <img
+        className="poetrait"
+        src="https://via.placeholder.com/200x300"
+        alt="Susanne Vestergaard"
+      />
 
       <h2>Susanne Vestergaard</h2>
 
