@@ -11,14 +11,14 @@ export default () => (
 
       <p>
         Vi er erfarne sproglærere med en masse i bagagen, både hvad angår
-        uddannelse og praksis. Vi har flg. CV’er:
+        uddannelse og praksis.
       </p>
 
       <div className="teacherBox">
         <div className="teatherPortrait">
           <img
             className="portrait"
-            src="https://via.placeholder.com/300x300"
+            src="https://via.placeholder.com/250x250"
             alt="Lisbeth Woll"
           />
         </div>
@@ -44,7 +44,7 @@ export default () => (
         <div className="teatćherPortrait">
           <img
             className="portrait"
-            src="https://via.placeholder.com/300x300"
+            src="https://via.placeholder.com/250x250"
             alt="Susanne Vestergaard"
           />
         </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../components/header'
 import Layout from '../components/layout'
 
+import '../styles/global.css'
+
 export default () => (
   <>
     <Header />
@@ -32,21 +34,33 @@ export default () => (
 
       <h2>Priser</h2>
 
-      <p>For almindelige kursister:</p>
+      <table className="prices">
+        <tbody>
+          <tr>
+            <th colspan="2">For almindelige kursister:</th>
+          </tr>
+          <tr>
+            <td>1 lektion</td>
+            <td>575,- kr.</td>
+          </tr>
+          <tr>
+            <td>10 lektioner</td>
+            <td>5000,- kr.</td>
+          </tr>
 
-      <p>
-        1 lektion: 575,- kr.
-        <br />
-        10 lektioner: 5000,- kr.
-      </p>
-
-      <p>For studerende (20% rabat):</p>
-
-      <p>
-        1 lektion: 460,- kr.
-        <br />
-        10 lektioner: 4000,- kr.
-      </p>
+          <tr>
+            <th colspan="2">For studerende (20% rabat):</th>
+          </tr>
+          <tr>
+            <td>1 lektion</td>
+            <td>460,- kr.</td>
+          </tr>
+          <tr>
+            <td>10 lektioner</td>
+            <td>4000,- kr.</td>
+          </tr>
+        </tbody>
+      </table>
     </Layout>
   </>
 )
