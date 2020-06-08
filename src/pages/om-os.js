@@ -52,7 +52,7 @@ export default () => (
           <h2>Susanne Vestergaard</h2>
 
           <ul>
-            <li>Magister i Germansk Filologi, Frie Universität Berlin</li>
+            <li>Magister i Germansk Filologi, Freie Universität Berlin</li>
             <li>Cand.mag i tysk og kunsthistorie, AAU</li>
             <li>
               Suppleringsuddannelse : ”Interkulturel Kommunikation”, Wiens

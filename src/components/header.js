@@ -16,6 +16,12 @@ export default (props) => (
           <img className={headerStyles.flag} src={GermanFlag} alt="Germany" />
           <img className={headerStyles.flag} src={FrenchFlag} alt="France" />
         </li>
+        {/*
+        <input className={headerStyles.menuBtn} type="checkbox" id="menuBtn" />
+        <label className={headerStyles.menuIcon} for="menuBtn">
+          <span className={headerStyles.navIcon}></span>
+        </label>
+*/}
         <li className={headerStyles.navItem}>
           <Link to="/om-os/">Om os</Link>
         </li>

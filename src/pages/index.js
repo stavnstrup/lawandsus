@@ -9,6 +9,7 @@ import CardHeader from '../components/cardheader'
 import CardBody from '../components/cardbody'
 import StyledBackgroundSection from '../components/heroimage'
 import '../styles/global.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default ({ data }) => {
   return (

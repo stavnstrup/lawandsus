@@ -43,19 +43,27 @@ $copper: #c17d31;
   }
 }
 
-.logo {
-  flex: 1;
-  font-size: 1.24rem;
-  align-self: left;
-  margin-left: 20px;
-}
-
 .nav-item:hover {
   color: #aaaaaa;
 }
 
+.logo,
 .flag {
-  //  justify-content: center;
-  margin-left: 10px;
-  height: 18px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: inline;
+    flex: 1;
+    font-size: 1.24rem;
+    align-self: left;
+    margin-left: 20px;
+  }
+
+  .flag {
+    display: inline;
+    margin-left: 10px;
+    height: 18px;
+  }
 }
