@@ -41,11 +41,11 @@ export default () => (
           </tr>
           <tr>
             <td>1 lektion</td>
-            <td>575,00 kr.</td>
+            <td className="priceCol">575,00 kr.</td>
           </tr>
           <tr>
             <td>10 lektioner</td>
-            <td>5.200,00 kr.</td>
+            <td className="priceCol">5.200,00 kr.</td>
           </tr>
 
           <tr>
@@ -53,14 +53,15 @@ export default () => (
           </tr>
           <tr>
             <td>1 lektion</td>
-            <td>460,00 kr.</td>
+            <td className="priceCol">460,00 kr.</td>
           </tr>
           <tr>
             <td>10 lektioner</td>
-            <td>4.200,00 kr.</td>
+            <td className="priceCol">4.200,00 kr.</td>
           </tr>
         </tbody>
       </table>
+      <p />
       <p>Alle priserne er inkl. undervisningsmaterialer.</p>
     </Layout>
   </>
