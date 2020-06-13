@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Header from '../components/header2'
+import Header from '../components/header'
 import Layout from '../components/layout'
 import CardGroup from '../components/cardgroup'
 import Card from '../components/card'
