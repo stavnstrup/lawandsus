@@ -68,7 +68,13 @@ $copper: #c17d31;
 }
 
 .flag {
-  display: inline;
-  margin-left: 10px;
+  display: none;
   height: 18px;
+  margin-left: 10px;
+}
+
+@media (min-width: 540px) {
+  .flag {
+    display: inline;
+  }
 }

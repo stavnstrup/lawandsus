@@ -105,11 +105,12 @@ export default ({ data }) => {
     </>
   )
 }
+// 284x189 18em, previous version was 256x171 16em
 
 export const fixedImage = graphql`
   fragment fixedImage on File {
     childImageSharp {
-      fixed(width: 256, height: 171) {
+      fixed(width: 284, height: 189) {
         ...GatsbyImageSharpFixed
       }
     }
