@@ -36,9 +36,6 @@ body {
   width: 100%;
   padding-right: 0.625rem;
   padding-left: 0.625rem;
-  img {
-    width: 100%;
-  }
 }
 
 .teacherPortrait img {
