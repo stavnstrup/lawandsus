@@ -1,15 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Header from '../components/header'
+import Header from '../components/header2'
 import Layout from '../components/layout'
 import CardGroup from '../components/cardgroup'
 import Card from '../components/card'
 import CardHeader from '../components/cardheader'
 import CardBody from '../components/cardbody'
 import StyledBackgroundSection from '../components/heroimage'
-import '../styles/global.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/global.css'
 
 export default ({ data }) => {
   return (

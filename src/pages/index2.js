@@ -9,7 +9,7 @@ import '../styles/global.css'
 const Index2 = () => {
   return (
     <>
-      <Navbar expand="sm">
+      <Navbar expand="md">
         <Navbar.Brand href="/">
           <div className="logo1">Sproglærerne</div>
           <img src={GermanFlag} className="flag" alt="Germany" />
