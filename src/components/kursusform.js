@@ -35,7 +35,7 @@ const KursusForm = () => {
       }}
     >
       {({ errors, status, touched }) => (
-        <Form name="contact" method="post" data-netlify="true">
+        <Form name="contact" method="post">
           <div className="form-row">
             <input type="hidden" name="form-name" value="contact" />
             <div class="form-group col">
