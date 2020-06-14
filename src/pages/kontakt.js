@@ -7,7 +7,12 @@ export default () => (
     <Header />
     <Layout>
       {/* A little help for the Netlify post-processing bots */}
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <form
+        name="contact"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        hidden
+      >
         <input type="text" name="name" />
         <input type="text" name="address" />
         <input type="text" name="postnr" />
