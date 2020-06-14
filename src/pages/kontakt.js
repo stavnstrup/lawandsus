@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/header'
 import Layout from '../components/layout'
+import KursusForm from '../components/kursusform'
 
 export default () => (
   <>
@@ -23,6 +24,7 @@ export default () => (
         <select name="sprog" />
         <textarea name="emner"></textarea>
       </form>
+
       <h1>Kontakt</h1>
 
       <h2>Hvor</h2>
@@ -43,6 +45,8 @@ export default () => (
         til undervisningen. Tilmeldingen er først bindende efter den første
         undervisningstime.
       </p>
+
+      <KursusForm />
 
       {/*
 Navn, adresse og mobilnr.
