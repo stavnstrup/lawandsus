@@ -14,13 +14,13 @@ export default () => (
         netlify-honeypot="bot-field"
         hidden
       >
-        <input type="text" name="name" />
-        <input type="text" name="address" />
-        <input type="text" name="postnr" />
-        <input type="text" name="city" />
+        <input type="text" name="navn" />
+        <input type="text" name="addresse" />
+        <input type="text" name="postnummer" />
+        <input type="text" name="by" />
         <input type="text" name="telefonnummer" />
         <input type="email" name="email" />
-        <textarea name="kunskaber"></textarea>
+        <textarea name="kundskaber"></textarea>
         <select name="sprog" />
         <textarea name="emner"></textarea>
       </form>
