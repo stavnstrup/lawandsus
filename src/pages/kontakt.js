@@ -6,6 +6,18 @@ export default () => (
   <>
     <Header />
     <Layout>
+      {/* A little help for the Netlify post-processing bots */}
+      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="text" name="address" />
+        <input type="text" name="postnr" />
+        <input type="text" name="city" />
+        <input type="text" name="telefonnummer" />
+        <input type="email" name="email" />
+        <textarea name="kunskaber"></textarea>
+        <select name="sprog" />
+        <textarea name="emner"></textarea>
+      </form>
       <h1>Kontakt</h1>
 
       <h2>Hvor</h2>
@@ -26,6 +38,13 @@ export default () => (
         til undervisningen. Tilmeldingen er først bindende efter den første
         undervisningstime.
       </p>
+
+      {/*
+Navn, adresse og mobilnr.
+Tysk: ___ Fransk: ___
+Beskriv dine sprogkundskaber og hvorfor du ønsker et sprogkursus?
+Emner, som du gerne vil beskæftige dig med?
+*/}
 
       <p>Har du spørgsmål, kan du kontakte os på flg. mails:</p>
 
