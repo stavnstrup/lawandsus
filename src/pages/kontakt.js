@@ -20,8 +20,8 @@ export default () => (
         <input type="text" name="by" />
         <input type="text" name="telefonnummer" />
         <input type="email" name="email" />
-        <textarea name="kundskaber"></textarea>
         <select name="sprog" />
+        <textarea name="kundskaber"></textarea>
         <textarea name="emner"></textarea>
       </form>
 
