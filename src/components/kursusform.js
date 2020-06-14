@@ -37,7 +37,7 @@ const KursusForm = () => {
       {({ errors, status, touched }) => (
         <Form name="contact" method="post">
           <div className="form-row">
-            <Field type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <div class="form-group col">
               <label htmlFor="navn">Navn</label>
               <Field
