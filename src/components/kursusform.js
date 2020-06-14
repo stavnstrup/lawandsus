@@ -25,8 +25,8 @@ const KursusForm = () => {
         by: Yup.string().required('By er obligatorisk'),
         mobil: Yup.string().required('Mobil er obligatorisk'),
         email: Yup.string()
-          .email('Email is invalid')
-          .required('Email is required'),
+          .email('Email er ikke korrekt')
+          .required('Email er obligatorisk'),
         kundskaber: Yup.string().required('Sprogkundskaber er obligatorisk'),
         emner: Yup.string().required('Emner er obligatorisk'),
       })}
@@ -42,7 +42,10 @@ const KursusForm = () => {
               <Field
                 name="navn"
                 type="text"
-                className={'form-control' + (touched.navn ? ' is-invalid' : '')}
+                className={
+                  'form-control' +
+                  (errors.navn && touched.navn ? ' is-invalid' : '')
+                }
               />
               <ErrorMessage
                 name="navn"
@@ -58,7 +61,8 @@ const KursusForm = () => {
                 name="addresse"
                 type="text"
                 className={
-                  'form-control' + (touched.addresse ? ' is-invalid' : '')
+                  'form-control' +
+                  (errors.navn && touched.addresse ? ' is-invalid' : '')
                 }
               />
               <ErrorMessage
@@ -75,7 +79,8 @@ const KursusForm = () => {
                 name="postnummer"
                 type="text"
                 className={
-                  'form-control' + (touched.postnummer ? ' is-invalid' : '')
+                  'form-control' +
+                  (errors.postnummer && touched.postnummer ? ' is-invalid' : '')
                 }
               />
               <ErrorMessage
@@ -89,7 +94,10 @@ const KursusForm = () => {
               <Field
                 name="by"
                 type="text"
-                className={'form-control' + (touched.by ? ' is-invalid' : '')}
+                className={
+                  'form-control' +
+                  (errors.by && touched.by ? ' is-invalid' : '')
+                }
               />
               <ErrorMessage
                 name="by"
@@ -105,7 +113,10 @@ const KursusForm = () => {
                 name="telefonnummer"
                 type="text"
                 className={
-                  'form-control' + (touched.telefonnummer ? ' is-invalid' : '')
+                  'form-control' +
+                  (errors.telefonnummer && touched.telefonnummer
+                    ? ' is-invalid'
+                    : '')
                 }
               />
               <ErrorMessage
@@ -120,7 +131,8 @@ const KursusForm = () => {
                 name="email"
                 type="text"
                 className={
-                  'form-control' + (touched.email ? ' is-invalid' : '')
+                  'form-control' +
+                  (errors.email && touched.email ? ' is-invalid' : '')
                 }
               />
               <ErrorMessage
@@ -159,7 +171,7 @@ const KursusForm = () => {
                 as="textarea"
                 className={
                   'form-control' +
-                  (errors.kundskaber && touched.password ? ' is-invalid' : '')
+                  (errors.kundskaber && touched.kundskaber ? ' is-invalid' : '')
                 }
               />
               <ErrorMessage
@@ -176,6 +188,7 @@ const KursusForm = () => {
               <Field
                 name="emner"
                 as="textarea"
+                type="textarea"
                 className={
                   'form-control' +
                   (errors.emner && touched.emner ? ' is-invalid' : '')
