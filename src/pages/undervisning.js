@@ -24,7 +24,7 @@ export default () => (
         ønsker.
       </p>
 
-      <p>Kursusperiode: 10 lektioner eller efter aftale.</p>
+      <p>Kursusperiode: 10 lektioner eller efter aftale</p>
 
       <p>1 lektion = 50 minutter</p>
 

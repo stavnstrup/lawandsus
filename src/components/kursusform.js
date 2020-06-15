@@ -20,9 +20,9 @@ const KursusForm = () => {
         email: '',
         sprog: '',
         kundskaber:
-          'Beskriv dine sprogkundskaber og hvorfor du ønsker et sprogkursus?',
-
-        emner: 'Emner, som du gerne vil beskæftige dig med?',
+          'Beskriv dine sprogkundskaber, og hvorfor du ønsker et sprogkursus? ',
+        emner:
+          'Er der nogle emner, herunder grammatik, som du gerne vil beskæftige dig med? ',
       }}
       validationSchema={Yup.object().shape({
         navn: Yup.string().required('Navn er obligatorisk'),
@@ -129,7 +129,7 @@ const KursusForm = () => {
           </div>
           <div className="form-row">
             <div className="form-group col-5">
-              <label htmlFor="telefonnummer">Telefon nummer</label>
+              <label htmlFor="telefonnummer">Telefonnummer</label>
               <Field
                 name="telefonnummer"
                 type="text"
