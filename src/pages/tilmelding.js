@@ -6,7 +6,6 @@ import KursusForm from '../components/kursusform'
 export default () => (
   <>
     {/* A little help for the Netlify post-processing bots
-     */}
 
     <form name="contact" data-netlify="true" hidden>
       <input type="text" name="navn" />
@@ -19,6 +18,7 @@ export default () => (
       <textarea name="kundskaber"></textarea>
       <textarea name="emner"></textarea>
     </form>
+     */}
 
     <Header />
     <Layout>

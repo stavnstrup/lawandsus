@@ -19,10 +19,8 @@ const KursusForm = () => {
         mobil: '',
         email: '',
         sprog: '',
-        kundskaber:
-          'Beskriv dine sprogkundskaber, og hvorfor du ønsker et sprogkursus? ',
-        emner:
-          'Er der nogle emner, herunder grammatik, som du gerne vil beskæftige dig med? ',
+        kundskaber: '',
+        emner: '',
       }}
       validationSchema={Yup.object().shape({
         navn: Yup.string().required('Navn er obligatorisk'),
@@ -37,7 +35,9 @@ const KursusForm = () => {
         emner: Yup.string().required('Emner er obligatorisk'),
       })}
       onSubmit={(values, actions) => {
-        fetch('/', {
+        console.log('Submission started')
+        console.log(values)
+        fetch('/?no-cache=1', {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: encode({ 'form-name': 'contact', ...values }),
@@ -45,20 +45,27 @@ const KursusForm = () => {
           .then(() => {
             alert('Success')
             actions.resetForm()
+            actions.setSubmitting(false)
           })
           .catch(() => {
             alert('Error')
           })
           .finally(() => actions.setSubmitting(false))
+        console.log('Submission ended')
       }}
     >
       {({ errors, status, touched }) => (
-        <Form name="contact" method="POST" data-netlify={true}>
+        <Form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <div className="form-row">
             {/*
              */}
             <Field type="hidden" name="form-name" value="contact" />
-            <div class="form-group col">
+            <div className="form-group col">
               <label htmlFor="navn">Navn</label>
               <Field
                 name="navn"
@@ -76,7 +83,7 @@ const KursusForm = () => {
             </div>
           </div>
           <div className="form-row">
-            <div class="form-group col">
+            <div className="form-group col">
               <label htmlFor="navn">Addresse</label>
               <Field
                 name="addresse"
@@ -162,8 +169,8 @@ const KursusForm = () => {
                 className="invalid-feedback"
               />
             </div>
-            <div class="form-group col">
-              <label>Sprog</label>
+            <div className="form-group col">
+              <label htmlFor="sprog">Sprog</label>
               <Field
                 name="sprog"
                 as="select"
@@ -172,7 +179,7 @@ const KursusForm = () => {
                   (errors.sprog && touched.sprog ? ' is-invalid' : '')
                 }
               >
-                <option value=""></option>
+                <option value="undefined"> </option>
                 <option value="tysk">Tysk</option>
                 <option value="fransk">Fransk</option>
               </Field>
@@ -189,11 +196,12 @@ const KursusForm = () => {
               <label htmlFor="kundskaber">Sprogkundskaber</label>
               <Field
                 name="kundskaber"
-                as="textarea"
+                component="textarea"
                 className={
                   'form-control' +
                   (errors.kundskaber && touched.kundskaber ? ' is-invalid' : '')
                 }
+                placeholder="Beskriv dine sprogkundskaber, og hvorfor du ønsker et sprogkursus?"
               />
               <ErrorMessage
                 name="kundskaber"
@@ -208,12 +216,12 @@ const KursusForm = () => {
               <label htmlFor="emner">Emner</label>
               <Field
                 name="emner"
-                as="textarea"
-                type="textarea"
+                component="textarea"
                 className={
                   'form-control' +
                   (errors.emner && touched.emner ? ' is-invalid' : '')
                 }
+                placeholder="Er der nogle emner, herunder grammatik, som du gerne vil beskæftige dig med?"
               />
               <ErrorMessage
                 name="emner"
