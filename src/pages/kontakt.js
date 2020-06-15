@@ -7,7 +7,7 @@ export default () => (
   <>
     <Header />
     <Layout>
-      {/* A little help for the Netlify post-processing bots */}
+      {/* A little help for the Netlify post-processing bots 
       <form name="contact" hidden>
         <input type="text" name="navn" />
         <input type="text" name="addresse" />
@@ -19,6 +19,7 @@ export default () => (
         <textarea name="kundskaber"></textarea>
         <textarea name="emner"></textarea>
       </form>
+      */}
 
       <h1>Kontakt</h1>
 
@@ -49,11 +50,8 @@ Tysk: ___ Fransk: ___
 Beskriv dine sprogkundskaber og hvorfor du ønsker et sprogkursus?
 Emner, som du gerne vil beskæftige dig med?
 */}
-
       <p>Har du spørgsmål, kan du kontakte os på flg. mails:</p>
-
       <p>Fransk: lisbeth@woll.dk</p>
-
       <p>Tysk: sus.vestergaard@mail.tele.dk</p>
     </Layout>
   </>
