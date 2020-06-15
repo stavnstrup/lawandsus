@@ -23,8 +23,8 @@ export default () => (
 
       <h2>Tilmelding</h2>
       <p>
-        Du kan tilmelde dig <Link to="/tilmelding/" />, og så vender vi tilbage
-        til dig med et forslag til undervisningen. Tilmeldingen er først
+        Du kan tilmelde dig <Link to="/tilmelding/">her</Link>, og så vender vi
+        tilbage til dig med et forslag til undervisningen. Tilmeldingen er først
         bindende efter den første undervisningstime.
       </p>
 
