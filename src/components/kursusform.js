@@ -35,8 +35,7 @@ const KursusForm = () => {
         emner: Yup.string().required('Emner er obligatorisk'),
       })}
       onSubmit={(values, actions) => {
-        console.log('Submission started')
-        console.log(values)
+        // fetch('/?no-cache=1', {
         fetch('/?no-cache=1', {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -45,13 +44,11 @@ const KursusForm = () => {
           .then(() => {
             alert('Success')
             actions.resetForm()
-            actions.setSubmitting(false)
           })
           .catch(() => {
             alert('Error')
           })
           .finally(() => actions.setSubmitting(false))
-        console.log('Submission ended')
       }}
     >
       {({ errors, status, touched }) => (
