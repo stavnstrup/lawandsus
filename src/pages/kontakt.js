@@ -1,26 +1,12 @@
 import React from 'react'
 import Header from '../components/header'
 import Layout from '../components/layout'
-import KursusForm from '../components/kursusform'
+import { Link } from 'gatsby'
 
 export default () => (
   <>
     <Header />
     <Layout>
-      {/* A little help for the Netlify post-processing bots 
-      <form name="contact" hidden>
-        <input type="text" name="navn" />
-        <input type="text" name="addresse" />
-        <input type="text" name="postnummer" />
-        <input type="text" name="by" />
-        <input type="text" name="telefonnummer" />
-        <input type="email" name="email" />
-        <select name="sprog" />
-        <textarea name="kundskaber"></textarea>
-        <textarea name="emner"></textarea>
-      </form>
-      */}
-
       <h1>Kontakt</h1>
 
       <h2>Hvor</h2>
@@ -37,12 +23,10 @@ export default () => (
 
       <h2>Tilmelding</h2>
       <p>
-        Du kan tilmelde dig her, og så vender vi tilbage til dig med et forslag
-        til undervisningen. Tilmeldingen er først bindende efter den første
-        undervisningstime.
+        Du kan tilmelde dig <Link to="/tilmelding/" />, og så vender vi tilbage
+        til dig med et forslag til undervisningen. Tilmeldingen er først
+        bindende efter den første undervisningstime.
       </p>
-
-      <KursusForm />
 
       {/*
 Navn, adresse og mobilnr.

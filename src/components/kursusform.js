@@ -2,6 +2,12 @@ import React from 'react'
 import { Formik, Field, Form, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
+
 const KursusForm = () => {
   return (
     <Formik
@@ -30,8 +36,20 @@ const KursusForm = () => {
         kundskaber: Yup.string().required('Sprogkundskaber er obligatorisk'),
         emner: Yup.string().required('Emner er obligatorisk'),
       })}
-      onSubmit={(fields) => {
-        alert('SUCCESS!! :-)\n\n' + JSON.stringify(fields, null, 4))
+      onSubmit={(values, actions) => {
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: encode({ 'form-name': 'contact', ...values }),
+        })
+          .then(() => {
+            alert('Success')
+            actions.resetForm()
+          })
+          .catch(() => {
+            alert('Error')
+          })
+          .finally(() => actions.setSubmitting(false))
       }}
     >
       {({ errors, status, touched }) => (
