@@ -55,7 +55,7 @@ const KursusForm = () => {
       {({ errors, status, touched }) => (
         <Form
           name="contact"
-          method="post"
+          method="POST"
           data-netlify={true}
           data-netlify-honeypot="bot-field"
         >
