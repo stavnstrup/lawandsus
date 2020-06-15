@@ -56,7 +56,7 @@ const KursusForm = () => {
         <Form
           name="contact"
           method="post"
-          data-netlify="true"
+          data-netlify={true}
           data-netlify-honeypot="bot-field"
         >
           <div className="form-row">
