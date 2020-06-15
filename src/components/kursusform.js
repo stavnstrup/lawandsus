@@ -57,7 +57,7 @@ const KursusForm = () => {
           <div className="form-row">
             {/*
              */}
-            <input type="hidden" name="form-name" value="contact" />
+            <Field type="hidden" name="form-name" value="contact" />
             <div class="form-group col">
               <label htmlFor="navn">Navn</label>
               <Field
