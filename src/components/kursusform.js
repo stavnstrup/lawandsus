@@ -53,14 +53,11 @@ const KursusForm = () => {
       }}
     >
       {({ errors, status, touched }) => (
-        <Form
-          name="contact"
-          method="POST"
-          data-netlify={true}
-          data-netlify-honeypot="bot-field"
-        >
+        <Form name="contact" method="POST" data-netlify={true}>
           <div className="form-row">
+            {/*
             <input type="hidden" name="form-name" value="contact" />
+            */}
             <div class="form-group col">
               <label htmlFor="navn">Navn</label>
               <Field
