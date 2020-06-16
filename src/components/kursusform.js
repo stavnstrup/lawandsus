@@ -27,12 +27,11 @@ const KursusForm = () => {
         addresse: Yup.string().required('Addresse er obligatorisk'),
         postnummer: Yup.string().required('Postnummer er obligatorisk'),
         by: Yup.string().required('By er obligatorisk'),
-        mobil: Yup.string().required('Mobil er obligatorisk'),
+        telefonnummer: Yup.string().required('Mobil er obligatorisk'),
         email: Yup.string()
           .email('Email er ikke korrekt')
           .required('Email er obligatorisk'),
         kundskaber: Yup.string().required('Sprogkundskaber er obligatorisk'),
-        emner: Yup.string().required('Emner er obligatorisk'),
       })}
       onSubmit={(values, actions) => {
         // fetch('/?no-cache=1', {
@@ -51,7 +50,7 @@ const KursusForm = () => {
           .finally(() => actions.setSubmitting(false))
       }}
     >
-      {({ errors, status, touched }) => (
+      {({ errors, touched, isSubmitting }) => (
         <Form
           name="contact"
           method="POST"
@@ -229,7 +228,11 @@ const KursusForm = () => {
           </div>
 
           <div className="form-group">
-            <button type="submit" className="btn btn-primary mr-2">
+            <button
+              type="submit"
+              className="btn btn-primary mr-2"
+              disabled={isSubmitting}
+            >
               Register
             </button>
             <button type="reset" className="btn btn-secondary">

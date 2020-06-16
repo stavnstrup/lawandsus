@@ -13,7 +13,7 @@ export default () => (
 
       <p>
         Vi underviser der, hvor det passer dig: på din arbejdsplads eller hos
-        dig selv i Københavnsområdet.
+        dig selv inden for Københavnsområdet.
       </p>
 
       <p>
