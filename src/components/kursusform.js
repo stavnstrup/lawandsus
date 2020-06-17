@@ -58,8 +58,6 @@ const KursusForm = () => {
           data-netlify-honeypot="bot-field"
         >
           <div className="form-row">
-            {/*
-             */}
             <Field type="hidden" name="form-name" value="contact" />
             <div className="form-group col">
               <label htmlFor="navn">Navn</label>
