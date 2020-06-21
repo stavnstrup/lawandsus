@@ -53,7 +53,7 @@ export default ({ data }) => (
 
           <ul>
             <li>Magister i Germansk Filologi, Freie Universität Berlin</li>
-            <li>Cand.mag i tysk og kunsthistorie, AAU</li>
+            <li>Cand.mag. i tysk og kunsthistorie, AAU</li>
             <li>
               Suppleringsuddannelse : ”Interkulturel Kommunikation”, Wiens
               universitet
@@ -83,7 +83,7 @@ export const fixedImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    lisbeth: file(relativePath: { eq: "lisbeth-original.jpg" }) {
+    lisbeth: file(relativePath: { eq: "lisbeth.jpg" }) {
       ...photoImage
     }
     susanne: file(relativePath: { eq: "susanne_vestergaard_428x640.jpg" }) {
