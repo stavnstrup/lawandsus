@@ -74,7 +74,7 @@ export default ({ data }) => (
 export const fixedImage = graphql`
   fragment photoImage on File {
     childImageSharp {
-      fixed(width: 250, height: 250) {
+      fixed(width: 200, height: 200) {
         ...GatsbyImageSharpFixed
       }
     }

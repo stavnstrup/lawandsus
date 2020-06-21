@@ -39,7 +39,7 @@ export default () => (
 
       <div className={kontaktStyles.cvrInfo}>
         <div>
-          <h3>Sproglærerne / Fransk</h3>
+          <h4>Sproglærerne / Fransk</h4>
           <p>
             Lisbeth Aggerbeck Woll
             <br />
@@ -52,7 +52,7 @@ export default () => (
           <p>CVR: 41435127 </p>
         </div>
         <div>
-          <h2>Sproglærerne / Tysk</h2>
+          <h4>Sproglærerne / Tysk</h4>
           <p>
             Susanne Vestergaard
             <br />
