@@ -83,7 +83,7 @@ export const fixedImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    lisbeth: file(relativePath: { eq: "lisbeth.jpg" }) {
+    lisbeth: file(relativePath: { eq: "lisbeth-original.jpg" }) {
       ...photoImage
     }
     susanne: file(relativePath: { eq: "susanne_vestergaard_428x640.jpg" }) {
