@@ -231,11 +231,13 @@ const KursusForm = () => {
               className="btn btn-primary mr-2"
               disabled={isSubmitting}
             >
-              Register
+              Tilmeld
             </button>
+            {/*
             <button type="reset" className="btn btn-secondary">
               Reset
             </button>
+            */}
           </div>
         </Form>
       )}

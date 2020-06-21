@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import kontaktStyles from '../components/kontakt.module.scss'
 
 export default () => (
   <>
@@ -34,15 +35,36 @@ export default () => (
         bindende efter den første undervisningstime.
       </p>
 
-      {/*
-Navn, adresse og mobilnr.
-Tysk: ___ Fransk: ___
-Beskriv dine sprogkundskaber og hvorfor du ønsker et sprogkursus?
-Emner, som du gerne vil beskæftige dig med?
-*/}
-      <p>Har du spørgsmål, kan du kontakte os på flg. mails:</p>
-      <p>Fransk: lisbeth@woll.dk</p>
-      <p>Tysk: sus.vestergaard@mail.tele.dk</p>
+      <p>Har du spørgsmål, kan du kontakte os pr. mail:</p>
+
+      <div className={kontaktStyles.cvrInfo}>
+        <div>
+          <h3>Sproglærerne / Fransk</h3>
+          <p>
+            Lisbeth Aggerbeck Woll
+            <br />
+            Irisvej 16
+            <br />
+            2700 Brønshøj
+            <br />
+            e-mail: lisbeth@woll.dk
+          </p>
+          <p>CVR: 41435127 </p>
+        </div>
+        <div>
+          <h2>Sproglærerne / Tysk</h2>
+          <p>
+            Susanne Vestergaard
+            <br />
+            J.E. Ohlsens Gade 6, 4. tv
+            <br />
+            2100 København Ø.
+            <br />
+            e-mail: sus.vestergaard@mail.tele.dk
+          </p>
+          <p>CVR: 41435119</p>
+        </div>
+      </div>
     </Layout>
     <Footer />
   </>
