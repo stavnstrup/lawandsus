@@ -35,7 +35,7 @@ export default () => (
         bindende efter den første undervisningstime.
       </p>
 
-      <p>Har du spørgsmål, kan du kontakte os pr. mail:</p>
+      <p>Har du spørgsmål, kan du kontakte os pr. mail.</p>
 
       <div className={kontaktStyles.cvrInfo}>
         <div>
