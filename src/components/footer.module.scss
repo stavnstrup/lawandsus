@@ -1,3 +1,40 @@
 .footer {
   margin: 3rem 0 1rem;
+  color: rgba($color: #ffffff, $alpha: 0.5);
+  background-color: rgb(51, 51, 51);
+
+  .miniNav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+    //  border-bottom: 4px solid $domino;
+
+    li {
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin: 0.4rem;
+    }
+  }
+
+  a,
+  a * {
+    text-decoration: none;
+  }
+
+  a,
+  a:hover,
+  a:visited {
+    color: inherit;
+  }
+
+  .cookie {
+    text-align: center;
+  }
+
+  .copyright {
+    margin: 20px 0 0 4rem;
+    padding-bottom: 10px;
+  }
 }

@@ -1,10 +1,18 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
+import SEO from '../components/seo.js'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Layout from '../components/layout'
 import '../styles/global.css'
 
-export default () => (
+export default ({ data }) => (
   <>
+    <SEO
+      title="Om sproglærerne"
+      description="Vi er erfarne sproglærere med akademiske uddannelser og stor erfaring fra gymnasiet og erhvervslivet."
+    />
     <Header />
     <Layout>
       <h1>Om os</h1>
@@ -16,11 +24,7 @@ export default () => (
 
       <div className="teacherBox">
         <div className="teatherPortrait">
-          <img
-            className="portrait"
-            src="https://via.placeholder.com/250x250"
-            alt="Lisbeth Woll"
-          />
+          <Img fixed={data.lisbeth.childImageSharp.fixed} />
         </div>
 
         <div className="teacherInfo">
@@ -41,12 +45,8 @@ export default () => (
       </div>
 
       <div className="teacherBox">
-        <div className="teatćherPortrait">
-          <img
-            className="portrait"
-            src="https://via.placeholder.com/250x250"
-            alt="Susanne Vestergaard"
-          />
+        <div className="teatherPortrait">
+          <Img fixed={data.susanne.childImageSharp.fixed} />
         </div>
         <div className="teacherInfo">
           <h2>Susanne Vestergaard</h2>
@@ -67,5 +67,27 @@ export default () => (
         </div>
       </div>
     </Layout>
+    <Footer />
   </>
 )
+
+export const fixedImage = graphql`
+  fragment photoImage on File {
+    childImageSharp {
+      fixed(width: 250, height: 250) {
+        ...GatsbyImageSharpFixed
+      }
+    }
+  }
+`
+
+export const pageQuery = graphql`
+  query {
+    lisbeth: file(relativePath: { eq: "lisbeth.jpg" }) {
+      ...photoImage
+    }
+    susanne: file(relativePath: { eq: "susanne_vestergaard_428x640.jpg" }) {
+      ...photoImage
+    }
+  }
+`

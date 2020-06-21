@@ -1,10 +1,34 @@
-import React from "react"
-
-import footerStyles from "./footer.module.scss"
+import React from 'react'
+import { Link } from 'gatsby'
+import footerStyles from './footer.module.scss'
 
 const Footer = () => {
   return (
-    <div className={footerStyles.footer}>Copyright © 2020 SPROGLÆRERNE</div>
+    <div className={footerStyles.footer}>
+      <ul className={footerStyles.miniNav}>
+        <li>
+          <Link to="/">Sproglærerne</Link>
+        </li>
+        <li>|</li>
+        <li>
+          <Link to="/om-os/">Om os</Link>
+        </li>
+        <li>|</li>
+        <li>
+          <Link to="/undervisning/">Undervisning</Link>
+        </li>
+        <li>|</li>
+        <li>
+          <Link to="/kontakt/">Kontakt</Link>
+        </li>
+      </ul>
+      <div className={footerStyles.cookie}>
+        <Link to="/privatliv/">Cookie- og privatlivspolitik</Link>
+      </div>
+      <div className={footerStyles.copyright}>
+        Copyright © 2020 SPROGLÆRERNE
+      </div>
+    </div>
   )
 }
 

@@ -1,7 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import SEO from '../components/seo.js'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Layout from '../components/layout'
 import CardGroup from '../components/cardgroup'
 import Card from '../components/card'
@@ -14,6 +16,10 @@ import '../styles/global.css'
 export default ({ data }) => {
   return (
     <>
+      <SEO
+        title="Sproglærerne"
+        description="Få effektiv sprogundervisning i tysk og fransk hos dygtige undervisere. Vi udbyder sprogkurser for elever på gymnasiale uddannelser, elever med særlige udfordringer, fx ordblinde og voksne kursister, der ønsker at forbedre deres sprogkundskaber med et brush-up kursus."
+      />
       <Header />
       <StyledBackgroundSection />
       <Layout>
@@ -102,6 +108,7 @@ export default ({ data }) => {
           </Card>
         </CardGroup>
       </Layout>
+      <Footer />
     </>
   )
 }
@@ -123,13 +130,6 @@ export const pageQuery = graphql`
       ...fixedImage
     }
     frustrated: file(relativePath: { eq: "frustrated.jpg" }) {
-      ...fixedImage
-    }
-    laptop: file(
-      relativePath: {
-        eq: "photo-of-woman-sitting-on-floor-while-using-laptop-3813006.jpg"
-      }
-    ) {
       ...fixedImage
     }
     adult: file(relativePath: { eq: "adult.jpg" }) {

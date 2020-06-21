@@ -1,11 +1,17 @@
 import React from 'react'
+import SEO from '../components/seo.js'
 import Header from '../components/header'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 
 import '../styles/global.css'
 
 export default () => (
   <>
+    <SEO
+      title="Undervisnings tilbud"
+      description="Vi udbyder kurser på gymnasialt niveau og intensive brush-up kurser i sprog og kultur. Vi tilbyder individuelle forløb på baggrund af kursisternes ønsker. Kurserne varer 10 lektioner eller efter aftale. Vi afholder eneundervisning eller holdundervisning à 2-3 personer. Vi har priser for almindelige kursister og for studerende med rabat. Priserne er inklusiv undervisningsmaterialer."
+    />
     <Header />
     <Layout>
       <h1>Undervisning</h1>
@@ -64,5 +70,6 @@ export default () => (
       <p />
       <p>Alle priserne er inkl. undervisningsmaterialer.</p>
     </Layout>
+    <Footer />
   </>
 )
