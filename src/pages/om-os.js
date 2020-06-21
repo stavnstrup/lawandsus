@@ -28,7 +28,7 @@ export default ({ data }) => (
         </div>
 
         <div className="teacherInfo">
-          <h2>Lisbeth Aggerbeck Woll</h2>
+          <h4>Lisbeth Aggerbeck Woll</h4>
 
           <ul>
             <li>Cand.mag. i fransk og engelsk, KU</li>
@@ -49,7 +49,7 @@ export default ({ data }) => (
           <Img fixed={data.susanne.childImageSharp.fixed} />
         </div>
         <div className="teacherInfo">
-          <h2>Susanne Vestergaard</h2>
+          <h4>Susanne Vestergaard</h4>
 
           <ul>
             <li>Magister i Germansk Filologi, Freie Universität Berlin</li>
