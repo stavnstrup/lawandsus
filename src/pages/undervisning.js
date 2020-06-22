@@ -32,7 +32,7 @@ export default () => (
 
       <p>Kursusperiode: 10 lektioner eller efter aftale</p>
 
-      <p>1 lektion = 50 minutter</p>
+      <p>1 lektion: 50 minutter</p>
 
       <p>Holdstørrelse: enetimer eller minihold på 2-3 personer</p>
 
@@ -68,7 +68,7 @@ export default () => (
         </tbody>
       </table>
       <p />
-      <p>Alle priserne er inkl. undervisningsmaterialer.</p>
+      <p>Priserne er inkl. undervisningsmaterialer.</p>
     </Layout>
     <Footer />
   </>

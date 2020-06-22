@@ -3,7 +3,6 @@ import SEO from '../components/seo.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 
 export default () => (
   <>
