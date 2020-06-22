@@ -41,8 +41,6 @@ export default () => (
         <div>
           <h4>Sproglærerne / Fransk</h4>
           <p>
-            Lisbeth Aggerbeck Woll
-            <br />
             Irisvej 16
             <br />
             2700 Brønshøj
@@ -54,8 +52,6 @@ export default () => (
         <div>
           <h4>Sproglærerne / Tysk</h4>
           <p>
-            Susanne Vestergaard
-            <br />
             J.E. Ohlsens Gade 6, 4. tv
             <br />
             2100 København Ø.
