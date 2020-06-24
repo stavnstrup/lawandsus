@@ -43,7 +43,7 @@ export default () => (
       <table className="prices">
         <tbody>
           <tr>
-            <th colspan="2">For almindelige kursister:</th>
+            <th colspan="2">For almindelige kursister</th>
           </tr>
           <tr>
             <td>1 lektion</td>
@@ -55,7 +55,7 @@ export default () => (
           </tr>
 
           <tr>
-            <th colspan="2">For studerende (20% rabat):</th>
+            <th colspan="2">For studerende (20% rabat)</th>
           </tr>
           <tr>
             <td>1 lektion</td>
