@@ -41,8 +41,12 @@ const KursusForm = () => {
           body: encode({ 'form-name': 'contact', ...values }),
         })
           .then(() => {
-            //  alert('Success')
-            // actions.resetForm()
+            alert(
+              'Hej ' +
+                values.navn +
+                '\n Tak for din tilmelding. Du vil få en mail med et forslag til undervisningen hurtigst muligt.',
+            )
+            actions.resetForm()
           })
           .catch(() => {
             alert('Error')
