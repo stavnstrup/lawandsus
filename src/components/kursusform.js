@@ -42,6 +42,7 @@ const KursusForm = () => {
         })
           .then(() => {
             // alert('Success')
+            actions.setSubmitting(true)
             actions.resetForm()
           })
           .catch(() => {
