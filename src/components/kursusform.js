@@ -40,11 +40,10 @@ const KursusForm = () => {
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: encode({ 'form-name': 'contact', ...values }),
         })
-          .then(() => {
-            // alert('Success')
-            actions.setSubmitting(true)
-            actions.resetForm()
-          })
+          //          .then(() => {
+          //            alert('Success')
+          //            actions.resetForm()
+          //          })
           .catch(() => {
             alert('Error')
           })
