@@ -2,10 +2,12 @@ import React from 'react'
 
 import layoutStyles from './layout.module.scss'
 
-const Layout = (props) => {
+const Layout = ({ isFrontpage, children }) => {
+  let frontpageClass = isFrontpage ? layoutStyles.frontpage : ''
+
   return (
-    <div className={layoutStyles.container}>
-      <div className={layoutStyles.content}>{props.children}</div>
+    <div className={`${layoutStyles.container} ${frontpageClass}`}>
+      <div className={layoutStyles.content}>{children}</div>
     </div>
   )
 }

@@ -215,7 +215,7 @@ const KursusForm = () => {
                   'form-control' +
                   (errors.emner && touched.emner ? ' is-invalid' : '')
                 }
-                placeholder="Er der nogle emner, herunder grammatik, som du gerne vil beskæftige dig med?"
+                placeholder="Er der nogle emner som du gerne vil beskæftige dig med?"
               />
               <ErrorMessage
                 name="emner"
