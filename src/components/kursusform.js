@@ -41,7 +41,7 @@ const KursusForm = () => {
           body: encode({ 'form-name': 'contact', ...values }),
         })
           .then(() => {
-            alert('Success')
+            // alert('Success')
             actions.resetForm()
           })
           .catch(() => {
