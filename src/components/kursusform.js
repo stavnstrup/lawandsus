@@ -100,7 +100,7 @@ const KursusForm = () => {
             </div>
           </div>
           <div className="form-row">
-            <div className="form-group col-2">
+            <div className="form-group col-md-3">
               <label htmlFor="postnummer">Postnummer</label>
               <Field
                 name="postnummer"
@@ -116,7 +116,7 @@ const KursusForm = () => {
                 className="invalid-feedback"
               />
             </div>
-            <div className="form-group col-10">
+            <div className="form-group col-md-9">
               <label htmlFor="by">By</label>
               <Field
                 name="by"
@@ -134,7 +134,7 @@ const KursusForm = () => {
             </div>
           </div>
           <div className="form-row">
-            <div className="form-group col-5">
+            <div className="form-group col-md-5">
               <label htmlFor="telefonnummer">Telefonnummer</label>
               <Field
                 name="telefonnummer"
@@ -152,7 +152,7 @@ const KursusForm = () => {
                 className="invalid-feedback"
               />
             </div>
-            <div className="form-group col-5">
+            <div className="form-group col-md-5">
               <label htmlFor="email">Email</label>
               <Field
                 name="email"
@@ -168,7 +168,7 @@ const KursusForm = () => {
                 className="invalid-feedback"
               />
             </div>
-            <div className="form-group col">
+            <div className="form-group col-md-2">
               <label htmlFor="sprog">Sprog</label>
               <Field
                 name="sprog"
