@@ -3,9 +3,11 @@ module.exports = {
     title: `Sproglærerne`,
     description: `Privat undervisning i Tysk og Fransk`,
     author: `Sproglærerne`,
+    siteUrl: `https://xn--sproglrerne-f9a.dk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
