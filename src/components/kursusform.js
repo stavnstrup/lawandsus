@@ -196,6 +196,7 @@ const KursusForm = () => {
               <Field
                 name="kundskaber"
                 component="textarea"
+                rows="3"
                 className={
                   'form-control' +
                   (errors.kundskaber && touched.kundskaber ? ' is-invalid' : '')
@@ -216,6 +217,7 @@ const KursusForm = () => {
               <Field
                 name="emner"
                 component="textarea"
+                rows="3"
                 className={
                   'form-control' +
                   (errors.emner && touched.emner ? ' is-invalid' : '')
