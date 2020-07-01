@@ -134,7 +134,7 @@ const KursusForm = () => {
             </div>
           </div>
           <div className="form-row">
-            <div className="form-group col-md-5">
+            <div className="form-group col-md-4">
               <label htmlFor="telefonnummer">Telefonnummer</label>
               <Field
                 name="telefonnummer"
@@ -152,7 +152,7 @@ const KursusForm = () => {
                 className="invalid-feedback"
               />
             </div>
-            <div className="form-group col-md-5">
+            <div className="form-group col-md-6">
               <label htmlFor="email">Email</label>
               <Field
                 name="email"
