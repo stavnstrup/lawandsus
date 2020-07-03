@@ -1,5 +1,6 @@
 .footer {
-  margin: 3rem 0 1rem;
+  margin: 3rem 0 0 0;
+  padding-bottom: 16px;
   border-top: 2px solid lightgray;
   color: #000000;
   background-color: #ffffff;
@@ -42,6 +43,7 @@
 
 @media (min-width: 768px) {
   .footer {
-    margin: 3rem 40px 1rem;
+    margin: 3rem 40px 0;
+    padding-bottom: 16px;
   }
 }

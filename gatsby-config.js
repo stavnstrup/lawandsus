@@ -7,7 +7,12 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/success/*`],
+      },
+    },
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
