@@ -10,7 +10,7 @@ export default () => (
   <>
     <SEO
       title="Undervisnings tilbud"
-      description="Vi udbyder kurser på gymnasialt niveau og intensive brush-up kurser i sprog og kultur. Vi tilbyder individuelle forløb på baggrund af kursisternes ønsker. Kurserne varer 10 lektioner eller efter aftale. Vi afholder eneundervisning eller holdundervisning à 2-3 personer. Vi har priser for almindelige kursister og for studerende med rabat. Priserne er inklusiv undervisningsmaterialer."
+      description="Vi udbyder kurser på gymnasialt niveau og intensive brush-up kurser i sprog og kultur. Vi tilbyder individuelle forløb på baggrund af kursisternes ønsker."
     />
     <Header />
     <Layout>
