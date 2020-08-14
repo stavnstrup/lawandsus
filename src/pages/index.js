@@ -46,9 +46,9 @@ export default ({ data }) => {
                 uddannelse med fransk eller tysk på fortsætterniveau, og synes
                 du ikke, du kan nok, kan du få et brush-up kursus hos os. Vi gør
                 det sjovt at lære, og alle kan lære et fremmedsprog; det kræver
-                primært vilje og gå-på-mod. Med fokus på dine behov kan vi føre
-                dig frem til et niveau, hvor du kan komme videre med selvtillid
-                og turde kommunikere uden frygt for at lave fejl.
+                primært vilje og gå-på-mod. Med fokus på dine behov kan vi
+                hjælpe dig op på et niveau, hvor du kan komme videre med
+                selvtillid og turde kommunikere uden frygt for at lave fejl.
               </p>
             </CardBody>
           </Card>
