@@ -61,7 +61,7 @@ export default ({ data }) => {
                 med at lære og træne tysk eller fransk ud fra dine
                 forudsætninger. Vi er vant til at håndtere den enkelte elevs
                 forskellige læringsmåder, dvs. vi arbejder ud fra, hvordan du
-                bedst lærer at forstå, tale og skrive fransk eller tysk.
+                bedst lærer at forstå, tale og skrive tysk eller fransk.
               </p>
             </CardBody>
           </Card>
