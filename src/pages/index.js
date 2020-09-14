@@ -43,7 +43,7 @@ export default ({ data }) => {
             <CardBody>
               <p>
                 Skal du starte - eller går du allerede - på en gymnasial
-                uddannelse med fransk eller tysk på fortsætterniveau, og synes
+                uddannelse med tysk eller fransk på fortsætterniveau, og synes
                 du ikke, du kan nok, kan du få et brush-up kursus hos os. Med
                 fokus på dine behov kan vi hjælpe dig op på et niveau, hvor du
                 kan komme videre med selvtillid og turde kommunikere uden frygt
@@ -58,7 +58,7 @@ export default ({ data }) => {
             <CardBody>
               <p>
                 Har du særlige udfordringer, fx er ordblind, kan vi hjælpe dig
-                med at lære og træne fransk eller tysk ud fra dine
+                med at lære og træne tysk eller fransk ud fra dine
                 forudsætninger. Vi er vant til at håndtere den enkelte elevs
                 forskellige læringsmåder, dvs. vi arbejder ud fra, hvordan du
                 bedst lærer at forstå, tale og skrive fransk eller tysk.

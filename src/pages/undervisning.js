@@ -19,7 +19,7 @@ export default () => (
       <p>
         Vi udbyder tre typer af kurser: kurser på gymnasialt niveau, kurser for
         elever med særlige udfordringer og intensive brush-up kurser i sprog og
-        kultur.
+        kultur for voksne.
       </p>
 
       <p>
