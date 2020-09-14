@@ -39,17 +39,6 @@ export default () => (
 
       <div className={kontaktStyles.cvrInfo}>
         <div>
-          <h4>Sproglærerne / Fransk</h4>
-          <p>
-            Irisvej 16
-            <br />
-            2700 Brønshøj
-            <br />
-            e-mail: lisbeth@woll.dk
-          </p>
-          <p>CVR: 41435127 </p>
-        </div>
-        <div>
           <h4>Sproglærerne / Tysk</h4>
           <p>
             J.E. Ohlsens Gade 6, 4. tv
@@ -59,6 +48,17 @@ export default () => (
             e-mail: sus.vestergaard@mail.tele.dk
           </p>
           <p>CVR: 41435119</p>
+        </div>
+        <div>
+          <h4>Sproglærerne / Fransk</h4>
+          <p>
+            Irisvej 16
+            <br />
+            2700 Brønshøj
+            <br />
+            e-mail: lisbeth@woll.dk
+          </p>
+          <p>CVR: 41435127 </p>
         </div>
       </div>
     </Layout>

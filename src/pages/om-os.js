@@ -24,28 +24,6 @@ export default ({ data }) => (
 
       <div className="teacherBox">
         <div className="teatherPortrait">
-          <Img fixed={data.lisbeth.childImageSharp.fixed} />
-        </div>
-
-        <div className="teacherInfo">
-          <h4>Lisbeth Aggerbeck Woll</h4>
-
-          <ul>
-            <li>Cand.mag. i fransk og engelsk, KU</li>
-            <li>Korrespondent i fransk og engelsk, CBS</li>
-            <li>Erhvervsøkonomisk suppleringsuddannelse, CBS</li>
-            <li>It-faglig efteruddannelse, ITU</li>
-            <li>Gymnasielærer på HHX og STX i 25 år</li>
-            <li>
-              3 år i Bruxelles med jobs i et amerikansk firma og EU-Kommissionen
-            </li>
-            <li>Jobs i forskellige firmaer i Danmark</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="teacherBox">
-        <div className="teatherPortrait">
           <Img fixed={data.susanne.childImageSharp.fixed} />
         </div>
         <div className="teacherInfo">
@@ -63,6 +41,28 @@ export default ({ data }) => (
             <li>Gymnasielærer på STX i 25 år</li>
             <li>Jobs i forskellige danske firmaer</li>
             <li>Udgiver af en række lærebøger og underviser på kurser</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="teacherBox">
+        <div className="teatherPortrait">
+          <Img fixed={data.lisbeth.childImageSharp.fixed} />
+        </div>
+
+        <div className="teacherInfo">
+          <h4>Lisbeth Aggerbeck Woll</h4>
+
+          <ul>
+            <li>Cand.mag. i fransk og engelsk, KU</li>
+            <li>Korrespondent i fransk og engelsk, CBS</li>
+            <li>Erhvervsøkonomisk suppleringsuddannelse, CBS</li>
+            <li>It-faglig efteruddannelse, ITU</li>
+            <li>Gymnasielærer på HHX og STX i 25 år</li>
+            <li>
+              3 år i Bruxelles med jobs i et amerikansk firma og EU-Kommissionen
+            </li>
+            <li>Jobs i forskellige firmaer i Danmark</li>
           </ul>
         </div>
       </div>
