@@ -18,7 +18,7 @@ export default ({ data }) => {
     <>
       <SEO
         title="Sproglærerne"
-        description="Få effektiv sprogundervisning i tysk og fransk hos dygtige undervisere. Vi udbyder sprogkurser for elever på gymnasiale uddannelser, elever med særlige udfordringer, fx ordblinde og voksne kursister, der ønsker at forbedre deres sprogkundskaber med et brush-up kursus."
+        description="Effektive tysk- og franskkurser hos dygtige undervisere. Vi udbyder sprogkurser for elever på gymnasiale uddannelser, elever med særlige udfordringer, fx ordblinde og voksne kursister, der ønsker at forbedre deres sprogkundskaber med et brush-up kursus."
       />
       <Header />
       <StyledBackgroundSection />

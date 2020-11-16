@@ -11,7 +11,7 @@ export default ({ data }) => (
   <>
     <SEO
       title="Om sproglærerne"
-      description="Vi er erfarne sproglærere med akademiske uddannelser og stor erfaring fra gymnasiet og erhvervslivet."
+      description="Vi er erfarne undevisere med akademiske uddannelser og stor erfaring fra gymnasiet og erhvervslivet."
     />
     <Header />
     <Layout>
