@@ -26,7 +26,7 @@ const Footer = () => {
         <Link to="/privatliv/">Cookie- og privatlivspolitik</Link>
       </div>
       <div className={footerStyles.copyright}>
-        Copyright © 2020 SPROGLÆRERNE
+        Copyright © 2020-2021 SPROGLÆRERNE
       </div>
     </div>
   )
