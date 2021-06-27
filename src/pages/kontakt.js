@@ -52,7 +52,7 @@ export default () => (
         <div>
           <h4>Sproglærerne / Fransk</h4>
           <p>
-            Irisvej 16
+            Pilesvinget 79
             <br />
             2700 Brønshøj
             <br />

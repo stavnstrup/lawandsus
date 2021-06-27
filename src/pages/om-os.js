@@ -58,7 +58,7 @@ export default ({ data }) => (
             <li>Korrespondent i fransk og engelsk, CBS</li>
             <li>Erhvervsøkonomisk suppleringsuddannelse, CBS</li>
             <li>It-faglig efteruddannelse, ITU</li>
-            <li>Gymnasielærer på HHX og STX i 25 år</li>
+            <li>Gymnasielærer på HHX og STX i 26 år</li>
             <li>
               3 år i Bruxelles med jobs i et amerikansk firma og EU-Kommissionen
             </li>
