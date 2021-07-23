@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import FrenchFlag from '../images/Flag_of_France.svg'
 import GermanFlag from '../images/Flag_of_Germany.svg'
 
-export default (props) => (
+const Header = (props) => (
   <>
     <header className={headerStyles.headerBar}>
       <Navbar expand="md" variant="dark" fixed="top1">
@@ -77,3 +77,5 @@ export default (props) => (
 */}
   </>
 )
+
+export default Header;

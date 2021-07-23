@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../components/header'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import Footer from '../components/footer'
 
-export default () => (
+const Sucess = () => (
   <>
-    <SEO title="Tak for din tilmelding" />
+    <Seo title="Tak for din tilmelding" />
     <Header />
     <Layout>
       <p>
@@ -17,3 +17,5 @@ export default () => (
     <Footer />
   </>
 )
+
+export default Sucess;

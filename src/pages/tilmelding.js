@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 import Layout from '../components/layout'
 import KursusForm from '../components/kursusform'
 
-export default () => (
+const Tilmelding = () => (
   <>
     {/* A little help for the Netlify post-processing bots
 
@@ -29,3 +29,5 @@ export default () => (
     <Footer />
   </>
 )
+
+export default Tilmelding;

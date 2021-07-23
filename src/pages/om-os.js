@@ -1,15 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import SEO from '../components/seo.js'
+import Seo from '../components/seo.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import '../styles/global.css'
 
-export default ({ data }) => (
+const OmOs = ({ data }) => (
   <>
-    <SEO
+    <Seo
       title="Om sproglærerne"
       description="Vi er erfarne undevisere med akademiske uddannelser og stor erfaring fra gymnasiet og erhvervslivet."
     />
@@ -70,6 +70,8 @@ export default ({ data }) => (
     <Footer />
   </>
 )
+
+export default OmOs;
 
 export const fixedImage = graphql`
   fragment photoImage on File {

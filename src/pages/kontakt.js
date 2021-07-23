@@ -1,14 +1,14 @@
 import React from 'react'
-import SEO from '../components/seo.js'
+import Seo from '../components/seo.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import kontaktStyles from '../components/kontakt.module.scss'
 
-export default () => (
+const Kontakt = () => (
   <>
-    <SEO
+    <Seo
       title="Kontakt og tilmelding"
       description="Vi underviser på din arbejdsplads, privat eller hos os. Vores område dækker Københavnsområdet. Du kan tilmelde dig på hjemmesiden. Vi vender så tilbage med et forslag til undervisningen. Du kan kontakte os på vores mails."
     />
@@ -57,3 +57,5 @@ export default () => (
     <Footer />
   </>
 )
+
+export default Kontakt;

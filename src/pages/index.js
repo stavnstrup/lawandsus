@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import SEO from '../components/seo.js'
+import Seo from '../components/seo.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
@@ -13,10 +13,10 @@ import StyledBackgroundSection from '../components/heroimage'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/global.css'
 
-export default ({ data }) => {
+const Main = ({ data }) => {
   return (
     <>
-      <SEO
+      <Seo
         title="Sproglærerne"
         description="Effektive tysk- og franskkurser hos dygtige undervisere. Vi udbyder sprogkurser for elever på gymnasiale uddannelser, elever med særlige udfordringer, fx ordblinde og voksne kursister, der ønsker at forbedre deres sprogkundskaber med et brush-up kursus."
       />
@@ -118,6 +118,9 @@ export default ({ data }) => {
     </>
   )
 }
+
+export default Main;
+
 // 284x189 18em, previous version was 256x171 16em
 
 export const fixedImage = graphql`

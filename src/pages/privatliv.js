@@ -1,12 +1,12 @@
 import React from 'react'
-import SEO from '../components/seo.js'
+import Seo from '../components/seo.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
-export default () => (
+const Privatliv = () => (
   <>
-    <SEO title="Cookie- og privatliv- og cookie og privatliv" />
+    <Seo title="Cookie- og privatliv- og cookie og privatliv" />
     <Header />
     <Layout>
       <h1>Cookie- og privatlivspolitik</h1>
@@ -65,3 +65,5 @@ export default () => (
     <Footer />
   </>
 )
+
+export default Privatliv;

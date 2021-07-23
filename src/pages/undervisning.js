@@ -1,14 +1,14 @@
 import React from 'react'
-import SEO from '../components/seo.js'
+import Seo from '../components/seo.js'
 import Header from '../components/header'
 import Layout from '../components/layout'
 import Footer from '../components/footer'
 
 import '../styles/global.css'
 
-export default () => (
+const Undervisning = () => (
   <>
-    <SEO
+    <Seo
       title="Undervisnings tilbud"
       description="Vi udbyder kurser på gymnasialt niveau og intensive brush-up kurser i sprog og kultur. Vi tilbyder individuelle forløb på baggrund af kursisternes ønsker."
     />
@@ -86,3 +86,5 @@ export default () => (
     <Footer />
   </>
 )
+
+export default Undervisning;
