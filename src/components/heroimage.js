@@ -10,7 +10,7 @@ const BackgroundSection = ({ className }) => (
       query {
         desktop: file(
           relativePath: {
-            eq: "woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg"
+            eq: "hero.jpg"
           }
         ) {
           childImageSharp {

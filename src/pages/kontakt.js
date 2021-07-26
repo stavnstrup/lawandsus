@@ -16,16 +16,8 @@ export default () => (
     <Layout>
       <h1>Kontakt</h1>
 
-      <h2>Hvor</h2>
-
       <p>
-        Vi underviser der, hvor det passer dig: på din arbejdsplads eller hos
-        dig selv inden for Københavnsområdet.
-      </p>
-
-      <p>
-        Undervisningen kan også foregå hos os på Østerbro eller i Brønshøj efter
-        aftale.
+        Undervisning kan foregå i vores lokaler, på din arbejdsplads eller online.
       </p>
 
       <h2>Tilmelding</h2>

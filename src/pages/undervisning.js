@@ -17,22 +17,29 @@ export default () => (
       <h1>Undervisning</h1>
 
       <p>
-        Vi udbyder tre typer af kurser: kurser på gymnasialt niveau, kurser for
-        elever med særlige udfordringer og intensive brush-up kurser i sprog og
-        kultur for voksne.
+        Vi tilbyder brush-up kurser à 10 lektioners varighed og underviser både fysisk og online.
+        Vi følger den enkelte tæt i forhold til den sproglige udvikling og fokuserer på det, der
+        er væsentligt for at tilegne sig et sprog. Vi lægger vægt på det mundtlige og inddrager grammatikken,
+        når den er relevant og i passende doser.
       </p>
 
       <p>
-        Vi afholder primært kurser à 10 lektioners varighed, hvor vi tester og
-        evaluerer resultatet. Kurserne opbygges som individuelle forløb på
-        baggrund af dine ønsker. Undervisningen kan desuden foregå online, så
-        mødetiden bliver mere fleksibel. Hjemmearbejde bliver afpasset dine
-        ønsker.
+       Når du har meldt dig til et kursus, indleder vi med en afklarende samtale. Her finder vi dit
+       niveau og din læringsstil, dvs. at vi sammen fastlægger, hvordan netop du lærer bedst. Vi planlægger
+       herefter et overordnet forløb. Hver lektion bliver først aftalt ved slutningen af den foregående,
+       så der bliver en naturlig progression.
+      </p>
+
+      <p>
+       Vi bruger ikke traditionelt lærebogsmateriale, men sammensætter vores eget i form af podcasts,
+       videoer, grammatiske forklaringer mm., som følges op i undervisningen af samtaler med læreren.
+       Vi underviser både på sproget og på dansk, hvilket giver de bedste forudsætninger for at lære
+       et fremmedsprog.
       </p>
 
       <p>Kursusperiode: 10 lektioner eller efter aftale</p>
 
-      <p>1 lektion: 50 minutter</p>
+      <p>1 lektion: 45 minutter</p>
 
       <p>Holdstørrelse: enetimer eller minihold på 2-3 personer</p>
 
@@ -64,6 +71,12 @@ export default () => (
           <tr>
             <td>10 lektioner</td>
             <td className="priceCol">4.200 kr.</td>
+          </tr>
+          <tr>
+            <th colspan="2">For elever med særlige behov</th>
+          </tr>
+          <tr>
+            <td colspan="2">Normal SPS-støttetakst</td>
           </tr>
         </tbody>
       </table>

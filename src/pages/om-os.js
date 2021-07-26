@@ -38,7 +38,7 @@ export default ({ data }) => (
             </li>
             <li>Underviser på AAU</li>
             <li>Underviser på CBS</li>
-            <li>Gymnasielærer på STX i 25 år</li>
+            <li>Gymnasielærer på STX i 30 år</li>
             <li>Jobs i forskellige danske firmaer</li>
             <li>Udgiver af en række lærebøger og underviser på kurser</li>
           </ul>

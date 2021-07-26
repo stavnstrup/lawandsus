@@ -24,16 +24,11 @@ export default ({ data }) => {
       <StyledBackgroundSection />
       <Layout isFrontpage="true">
         <p>
-          Lær tysk og fransk hos dygtige undervisere med en solid faglig og
-          pædagogisk baggrund. Vi er erfarne gymnasielærere, der kender
-          udfordringerne for elever med forskellige forudsætninger for at lære
-          sprog, og vi er på forkant med de nyeste metoder inden for
-          fremmedsprogsundervisning.
+          Vi er en moderne sprogskole, der tager udgangspunkt i den enkelte elevs behov og tilpasser undervisningen løbende. Vi arbejder med de bedst egnede metoder inden for sprogundervisning og de nyeste, digitale hjælpemidler.
         </p>
 
         <p>
-          Vores undervisning er tilpasset den enkelte elevs behov med
-          individuelle forløb. Vi er effektive, men uhøjtidelige.
+          Vi er professionelle undervisere med mange års undervisningserfaring, bl.a. i Gymnasieskolen. Vi behersker både fremmedsprogene og dansk på modersmålsniveau.
         </p>
 
         <CardGroup>
@@ -68,15 +63,27 @@ export default ({ data }) => {
 
           <Card>
             <Img fixed={data.adult.childImageSharp.fixed} />
-            <CardHeader header="Andre kursister" />
+            <CardHeader header="Voksne kursister" />
             <CardBody>
               <p>
                 Hvis du som voksen allerede har lært lidt tysk eller fransk og
                 gerne vil forbedre dine sprogkundskaber, skræddersyr vi et
                 program til dig. Her vil din basisviden blive reaktiveret og
                 suppleret, så du hurtigt bliver mere sikker og flydende på
-                sproget. Vi tager udgangspunkt i et emne, der interesserer dig
-                eller et område, du har brug for at kunne udtrykke dig på vha.
+                sproget. 
+              </p>
+            </CardBody>
+          </Card>
+
+          <Card>
+            <Img fixed={data.specifik.childImageSharp.fixed} />
+            <CardHeader header="Specifikke ønsker" />
+            <CardBody>
+              <p>
+                Skal du fx udstationeres eller studere i udlandet, og har du derfor
+                et akut behov for at kunne klare dig på fremmedsproget, udbyder vi
+                fagspecifikke kurser. Vi tager udgangspunkt i et emne, der interesserer
+                dig eller et område, du har brug for at kunne udtrykke dig på vha.
                 emnespecifikke gloser og brugbare udtryk.
               </p>
             </CardBody>
@@ -134,6 +141,9 @@ export const pageQuery = graphql`
     adult: file(relativePath: { eq: "adult.jpg" }) {
       ...fixedImage
     }
+    specifik: file(relativePath: { eq: "elev-laerer.jpg" }) {
+      ...fixedImage
+    }    
     culture: file(relativePath: { eq: "culture-food.jpg" }) {
       ...fixedImage
     }
