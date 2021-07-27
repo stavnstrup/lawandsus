@@ -4,7 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
-import kontaktStyles from '../components/kontakt.module.scss'
+import * as kontaktStyles from '../components/kontakt.module.scss'
 
 const Kontakt = () => (
   <>
@@ -16,6 +16,7 @@ const Kontakt = () => (
     <Layout>
       <h1>Kontakt</h1>
 
+      <h2>Hvor</h2>
       <p>
         Undervisning kan foregå i vores lokaler, på din arbejdsplads eller online.
       </p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Navbar, Nav } from 'react-bootstrap'
-import headerStyles from './header.module.scss'
+import * as headerStyles from './header.module.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import FrenchFlag from '../images/Flag_of_France.svg'
 import GermanFlag from '../images/Flag_of_Germany.svg'
