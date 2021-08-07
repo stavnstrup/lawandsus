@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 import Seo from '../components/seo.js'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -24,7 +24,7 @@ const OmOs = ({ data }) => (
 
       <div className="teacherBox">
         <div className="teatherPortrait">
-          <Img fixed={data.susanne.childImageSharp.fixed} />
+          <GatsbyImage image={data.susanne.childImageSharp.gatsbyImageData} />
         </div>
         <div className="teacherInfo">
           <h4>Susanne Vestergaard</h4>
@@ -47,7 +47,7 @@ const OmOs = ({ data }) => (
 
       <div className="teacherBox">
         <div className="teatherPortrait">
-          <Img fixed={data.lisbeth.childImageSharp.fixed} />
+          <GatsbyImage image={data.lisbeth.childImageSharp.gatsbyImageData} />
         </div>
 
         <div className="teacherInfo">
@@ -73,14 +73,11 @@ const OmOs = ({ data }) => (
 
 export default OmOs;
 
-export const fixedImage = graphql`
-  fragment photoImage on File {
-    childImageSharp {
-      fixed(width: 200, height: 200) {
-        ...GatsbyImageSharpFixed
-      }
-    }
+export const fixedImage = graphql`fragment photoImage on File {
+  childImageSharp {
+    gatsbyImageData(width: 200, height: 200, layout: FIXED)
   }
+}
 `
 
 export const pageQuery = graphql`
