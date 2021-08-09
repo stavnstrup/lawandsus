@@ -9,9 +9,9 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/success/*`],
-      },
+//      options: {
+//        exclude: [`/success/*`],
+//      },
     },
     `gatsby-plugin-sass`,
     {

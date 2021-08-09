@@ -1,8 +1,8 @@
 import React from 'react'
 import Seo from '../components/seo.js'
 import Header from '../components/header'
-import Footer from '../components/footer'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 
 const Privatliv = () => (
   <>

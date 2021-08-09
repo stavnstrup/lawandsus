@@ -3,8 +3,8 @@ import { graphql } from 'gatsby'
 import { GatsbyImage } from "gatsby-plugin-image";
 import Seo from '../components/seo.js'
 import Header from '../components/header'
-import Footer from '../components/footer'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 import '../styles/global.css'
 
 const OmOs = ({ data }) => (
