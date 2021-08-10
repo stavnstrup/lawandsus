@@ -6,13 +6,13 @@ import BackgroundImage from 'gatsby-background-image'
 
 
 
-const BackgroundSection = ( { className }) => {
+const BackgroundSection = ( { className } ) => {
   const data  = useStaticQuery (
     graphql`
       query {
-        desktop: file(relativePath: {eq: "hero.jpg"}) {
+        desktop: file(relativePath: {eq: "woman-in-yellow-shirt-writing-on-white-paper-3807755.jpg"}) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 1920){
+            fluid(quality: 95, maxWidth: 1920){
               ...GatsbyImageSharpFluid_withWebp
             }
           }
@@ -34,16 +34,14 @@ const BackgroundSection = ( { className }) => {
     <p className="bannerTitle">
       Effektiv sprogundervisning i tysk og fransk
     </p>
+{/*
     <p className="bannerTitle"></p>
     <p className="bannerDescr">Willkommen - Bienvenue</p>
+*/}
   </BackgroundImage>
   )
 
 }
-
-
-
-
 
 
 const StyledBackgroundSection = styled(BackgroundSection)`
@@ -53,7 +51,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   }
   width: 100%;
   min-height: 100vh;
-  background-position: 25% center;
+  background-position: center center;
   background-repeat: repeat-y;
   background-size: cover;
   z-index: 1;
