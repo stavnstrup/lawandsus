@@ -80,10 +80,13 @@ const Main = ({ data }) => {
           <CardBody>
             <p>
               Skal du fx udstationeres eller studere i udlandet, og har du derfor
-              et akut behov for at kunne klare dig på fremmedsproget, udbyder vi
-              fagspecifikke kurser. Vi tager udgangspunkt i et emne, der interesserer
-              dig eller et område, du har brug for at kunne udtrykke dig på vha.
+              et akut behov for at kunne klare dig på fremmedsproget, målretter
+              vi kurset efter dine ønsker. 
+
+              Vi tager udgangspunkt i et relevant emne
+              og et område, du har brug for at kunne udtrykke dig på vha.
               emnespecifikke gloser og brugbare udtryk.
+
             </p>
           </CardBody>
         </Card>

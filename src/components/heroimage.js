@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
-
 import BackgroundImage from 'gatsby-background-image'
+// import Banner from '../images/round-banner1.svg'
 
 
 
@@ -32,9 +32,10 @@ const BackgroundSection = ( { className } ) => {
     backgroundColor={`#040e18`}
   >
     <p className="bannerTitle">
-      Effektiv sprogundervisning i tysk og fransk
+      Målrettet sprogundervisning i tysk og fransk
     </p>
 {/*
+    <Banner /> 
     <p className="bannerTitle"></p>
     <p className="bannerDescr">Willkommen - Bienvenue</p>
 */}

@@ -18,7 +18,7 @@ const Kontakt = () => (
 
       <h2>Hvor</h2>
       <p>
-        Undervisning kan foregå i vores lokaler, på din arbejdsplads eller online.
+        Undervisningen kan foregå i vores lokaler, på din arbejdsplads eller online.
       </p>
 
       <h2>Tilmelding</h2>
