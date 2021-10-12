@@ -10,7 +10,7 @@ const Undervisning = () => (
   <>
     <Seo
       title="Undervisnings tilbud"
-      description="Vi udbyder kurser på gymnasialt niveau og intensive brush-up kurser i sprog og kultur. Vi tilbyder individuelle forløb på baggrund af kursisternes ønsker."
+      description="Vi udbyder undervisning på gymnasialt niveau og intensive fransk kurser og tysk kurser. Vi tilbyder individuelle forløb på baggrund af kursisternes ønsker."
     />
     <Header />
     <Layout>
