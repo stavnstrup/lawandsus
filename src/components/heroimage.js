@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import BackgroundImage from 'gatsby-background-image'
+import { Link } from 'gatsby'
 // import Banner from '../images/round-banner1.svg'
 
 
@@ -35,10 +36,11 @@ const BackgroundSection = ( { className } ) => {
       Målrettet sprogundervisning i tysk og fransk
     </p>
 {/*
-    <Banner /> 
-    <p className="bannerTitle"></p>
-    <p className="bannerDescr">Willkommen - Bienvenue</p>
-*/}
+    <Banner />
+    <p className="bannerTitle">Tyskundervisning / Franskundervisning</p>
+    <p className="bannerDescr">Nemt og Hurtigt. Tilrettelagt specielt til dig offline eller online. 
+    Klik <Link to="/tilmelding/">her</Link> for en uddybende samtale.</p>
+  */}
   </BackgroundImage>
   )
 

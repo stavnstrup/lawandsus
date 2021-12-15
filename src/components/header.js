@@ -9,7 +9,7 @@ import GermanFlag from '../images/Flag_of_Germany.svg'
 const Header = (props) => (
   <>
     <header className={headerStyles.headerBar}>
-      <Navbar expand="md" variant="dark" fixed="top1">
+      <Navbar expand="md" variant="light" fixed="top1">
         <Navbar.Brand href="/">
           <span className={headerStyles.logo}>Sproglærerne</span>
           <img src={GermanFlag} className={headerStyles.flag} alt="Germany" />

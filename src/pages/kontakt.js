@@ -23,12 +23,8 @@ const Kontakt = () => (
 
       <h2>Tilmelding</h2>
       <p>
-        Du kan tilmelde dig <Link to="/tilmelding/">her</Link>, og så vender vi
-        tilbage til dig med et forslag til undervisningen. Tilmeldingen er først
-        bindende efter den første undervisningstime.
+        Klik <Link to="/tilmelding/">her</Link>, og vi ringer dig op inden for 24 timer. Har du spørgsmål, kan du også kontakte os pr. mail.
       </p>
-
-      <p>Har du spørgsmål, kan du kontakte os pr. mail.</p>
 
       <div className={kontaktStyles.cvrInfo}>
         <div>

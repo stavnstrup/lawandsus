@@ -17,7 +17,7 @@ const Undervisning = () => (
       <h1>Undervisning</h1>
 
       <p>
-        Vi tilbyder brush-up kurser à 10 lektioners varighed og underviser både fysisk og online.
+        Vi tilbyder individuelt tilrettelagte kurser à 10 lektioners varighed og underviser både fysisk og online.
         Vi følger den enkelte tæt i forhold til den sproglige udvikling og fokuserer på det, der
         er væsentligt for at tilegne sig et sprog. Vi lægger vægt på det mundtlige og inddrager grammatikken,
         når den er relevant og i passende doser.
