@@ -21,7 +21,7 @@ const Kontakt = () => (
         Undervisningen kan foregå i vores lokaler, på din arbejdsplads eller online.
       </p>
 
-      <h2>Tilmelding</h2>
+      <h2>Kontakt os</h2>
       <p>
         Klik <Link to="/tilmelding/">her</Link>, og vi ringer dig op inden for 24 timer. Har du spørgsmål, kan du også kontakte os pr. mail.
       </p>

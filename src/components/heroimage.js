@@ -32,16 +32,20 @@ const BackgroundSection = ( { className } ) => {
     fluid={imageData}
     backgroundColor={`#040e18`}
   >
+{/*
     <p className="bannerTitle">
       Målrettet sprogundervisning i tysk og fransk
     </p>
-{/*
     <Banner />
-    <p className="bannerTitle">Tyskundervisning / Franskundervisning</p>
-    <p className="bannerDescr">Nemt og Hurtigt. Tilrettelagt specielt til dig offline eller online. 
-    Klik <Link to="/tilmelding/">her</Link> for en uddybende samtale.</p>
   */}
-  </BackgroundImage>
+      <div className="bannerContainer">
+        <div className="bannerBox">
+          <h1>Tyskundervisning / Franskundervisning</h1>
+          <p>Nemt og Hurtigt. Tilrettelagt specielt til dig offline eller online.<br /> 
+          Klik <Link to="/tilmelding/">her</Link> for en uddybende samtale.</p>
+        </div>
+      </div>
+    </BackgroundImage>
   )
 
 }

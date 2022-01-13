@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { Navbar, Nav } from 'react-bootstrap'
 import * as headerStyles from './header.module.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import SL from '../images/sl-logo.svg'
 import FrenchFlag from '../images/Flag_of_France.svg'
 import GermanFlag from '../images/Flag_of_Germany.svg'
 
@@ -11,9 +12,12 @@ const Header = (props) => (
     <header className={headerStyles.headerBar}>
       <Navbar expand="md" variant="light" fixed="top1">
         <Navbar.Brand href="/">
+          <img src={SL} width="30" height="30" class="d-inline-block align-top" alt="SL Logo" />
           <span className={headerStyles.logo}>Sproglærerne</span>
+{/*
           <img src={GermanFlag} className={headerStyles.flag} alt="Germany" />
           <img src={FrenchFlag} className={headerStyles.flag} alt="France" />
+*/}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse

@@ -23,7 +23,7 @@ const Tilmelding = () => (
 
     <Header />
     <Layout>
-      <h1>Tilmelding</h1>
+      <h1>Kontaktformular</h1>
       <KursusForm />
     </Layout>
     <Footer />
