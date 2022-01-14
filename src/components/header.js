@@ -4,8 +4,6 @@ import { Navbar, Nav } from 'react-bootstrap'
 import * as headerStyles from './header.module.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import SL from '../images/sl-logo.svg'
-import FrenchFlag from '../images/Flag_of_France.svg'
-import GermanFlag from '../images/Flag_of_Germany.svg'
 
 const Header = (props) => (
   <>
