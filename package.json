@@ -8,6 +8,7 @@
     "12": "^1.0.2",
     "babel-plugin-styled-components": "^1.13.2",
     "bootstrap": "^5.0.2",
+    "deepmerge": "^4.2.2",
     "formik": "^2.2.9",
     "gatsby": "^4.4.0",
     "gatsby-background-image": "^1.5.3",
