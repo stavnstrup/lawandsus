@@ -22,12 +22,10 @@ const Main = ({ data }) => {
     <Header />
     <StyledBackgroundSection />
     <Layout isFrontpage="true">
-      <p>
-        Vi er en moderne sprogskole, der tager udgangspunkt i den enkelte elevs behov og tilpasser undervisningen løbende. Vi arbejder med de bedst egnede metoder inden for sprogundervisning og de nyeste, digitale hjælpemidler.
+      <p>Vi er højtuddannede, engagerede sproglærere med mange års undervisningserfaring fra højeste niveau til begynderundervisning. Vi behersker tysk/fransk på modersmålsniveau og er altid opdaterede på den kulturelle og samfundsmæssige udvikling i vores sprogområder.
       </p>
 
-      <p>
-        Vi er professionelle undervisere med mange års undervisningserfaring, bl.a. i Gymnasieskolen. Vi behersker både fremmedsprogene og dansk på modersmålsniveau.
+      <p>Vi har stor pædagogisk indsigt og forstår at skabe et afslappet og rart undervisningsmiljø. Vi ved med vores store erfaring, hvordan man bedst lærer sprog, og vi underviser, fordi vi kan lide det. Vi glæder os til at lære DIG tysk eller fransk!
       </p>
 
       <CardGroup>
@@ -79,13 +77,9 @@ const Main = ({ data }) => {
           <CardHeader header="Specifikke ønsker" />
           <CardBody>
             <p>
-              Skal du fx udstationeres eller studere i udlandet, og har du derfor
-              et akut behov for at kunne klare dig på fremmedsproget, målretter
-              vi kurset efter dine ønsker. 
+            Hvis du fx skal studere, til jobsamtale eller udstationeres i udlandet, tilrettelægger vi undervisningen efter dine specifikke behov.
 
-              Vi tager udgangspunkt i et relevant emne
-              og et område, du har brug for at kunne udtrykke dig på vha.
-              emnespecifikke gloser og brugbare udtryk.
+Skal du forberede en eksamen (gymnasiet, seminariet eller lignende), eller skal du til optagelsesprøve på et tysk eller fransk universitet, laver vi et målrettet forløb.
 
             </p>
           </CardBody>

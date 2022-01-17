@@ -26,8 +26,7 @@ const Undervisning = () => (
       <p>
        Når du har meldt dig til et kursus, indleder vi med en afklarende samtale. Her finder vi dit
        niveau og din læringsstil, dvs. at vi sammen fastlægger, hvordan netop du lærer bedst. Vi planlægger
-       herefter et overordnet forløb. Hver lektion bliver først aftalt ved slutningen af den foregående,
-       så der bliver en naturlig progression.
+       herefter et overordnet forløb. Efter hver lektion laver vi en kort opsamling og en plan for næste modul. I hver lektion vil du få talt sproget i mindst en halv time, og du vil kunne mærke en større sikkerhed, have fået et større gloseforråd og have lært lige det, du mangler for at komme videre.
       </p>
 
       <p>
