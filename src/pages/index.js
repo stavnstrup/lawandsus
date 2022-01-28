@@ -52,7 +52,7 @@ const Main = ({ data }) => {
               Har du særlige udfordringer, fx er ordblind, kan vi hjælpe dig
               med at lære og træne tysk eller fransk ud fra dine
               forudsætninger. Vi er vant til at håndtere den enkelte elevs
-              forskellige læringsmåder, dvs. vi arbejder ud fra, hvordan du
+              forskellige læringsmåder, og vi tager udgangspunkt i, hvordan du
               bedst lærer at forstå, tale og skrive tysk eller fransk.
             </p>
           </CardBody>
