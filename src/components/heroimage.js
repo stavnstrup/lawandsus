@@ -40,7 +40,7 @@ const BackgroundSection = ( { className } ) => {
   */}
       <div className="bannerContainer">
         <div className="bannerBox">
-          <h1>Tyskundervisning / Franskundervisning</h1>
+          <h1>Tyskundervisning Franskundervisning</h1>
           <p>Nemt og hurtigt. Tilrettelagt specielt til dig offline eller online.<br /> 
           Klik <Link to="/tilmelding/">her</Link> for en uddybende samtale.</p>
         </div>
