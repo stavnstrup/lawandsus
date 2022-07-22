@@ -30,7 +30,7 @@ function SEO({ description, lang, meta, title }) {
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang: 'da',
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
